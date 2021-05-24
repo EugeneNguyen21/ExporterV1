@@ -1,0 +1,137 @@
+{
+  "name": "Employees export",
+  "description": "Export of all Employees GE_EMP & GE_EMP_LOC_CHART",
+  "files": [
+    {
+      "name": "EMPLOYEES",
+      "formatter": "thymleaf_project.demo.formatter.CsvFormatter",
+      "fileNamePattern": "{DATE:YYY-MM-DD HH:mm:ss}-{name}.csv",
+      "transport": {
+        "handlerClassName": "thymleaf_project.demo.transporter.Ftp"
+      },
+      "queries": [
+        {
+          "dbVendor": "mysql-0",
+          "sql": "SELECT ge_emp.P_REF, ge_emp.LAST_NAME, ge_emp.FIRST_NAME, ge_emp.TERR_ACTIV, ge_emp.COUNTRY, ge_emp.EMAIL, ge_emp.CIVILITY \nFROM ge_emp\nJOIN ge_emp_loc_chart on (ge_emp.P_IDDOC = ge_emp_loc_chart.P_IDDOC)",
+          "params": [
+            "lastExtractDate",
+            "currentExtractDate"
+          ]
+        },
+        {
+          "dbVendor": "mysql",
+          "sql": "SELECT ge_emp.P_REF, ge_emp.LAST_NAME, ge_emp.FIRST_NAME, ge_emp.TERR_ACTIV, ge_emp.COUNTRY, ge_emp.EMAIL, ge_emp.CIVILITY \nFROM ge_emp\nJOIN ge_emp_loc_chart on (ge_emp.P_IDDOC = ge_emp_loc_chart.P_IDDOC)",
+          "params": []
+        }
+      ],
+      "columns": [
+        {
+          "input": "P_REF",
+          "output": "EMPLOYEE_EXTERNAL_ID",
+          "type": "Text"
+        },
+        {
+          "input": "LAST_NAME",
+          "output": "EMPLOYEE_LAST_NAME",
+          "type": "Text"
+        },
+        {
+          "input": "FIRST_NAME",
+          "output": "EMPLOYEE_FIRST_NAME",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EMPLOYEE_GBU",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EMPLOYEE_DIRECTION",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EMPLOYEE_DEPARTMENT",
+          "type": "text"
+        },
+        {
+          "input": "TERR_ACTIV",
+          "output": "EMPLOYEE_SECTOR",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EMPLOYEE_USER_ROLE",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EMPLOYEE_TERRAIN",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EMPLOYEE_FUNCTION",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EMPLOYEE_ADDRESS_1",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EMPLOYEE_ADDRESS_2",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EMPLOYEE_COMPLEMENTARY_ADDRESS",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EMPLOYEE_ZIP_CODE",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EMPLOYEE_CITY",
+          "type": "text"
+        },
+        {
+          "input": "COUNTRY",
+          "output": "EMPLOYEE_COUNTRY",
+          "type": "text"
+        },
+        {
+          "input": "EMAIL",
+          "output": "EMPLOYEE_EMAIL",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EMPLOYEE_NATIONALITY",
+          "type": "text"
+        },
+        {
+          "input": "CIVILITY",
+          "output": "EMPLOYEE_CIVILITY",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EMPLOYEE_POLITENESS",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EMPLOYEE_IS_SALES_FORCE",
+          "type": "text"
+        }
+      ],
+      "includeHeaders": true
+    }
+  ]
+}

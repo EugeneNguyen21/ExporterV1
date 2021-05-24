@@ -1,0 +1,170 @@
+{
+  "name": "Contacts export",
+  "description": "Export of all contacts with their addresses",
+  "files": [
+    {
+      "name": "CONTACTS",
+      "formatter": "exporter_project.demo.formatter.CsvFormatter",
+      "fileNamePattern": "{DATE:YYY-MM-DD HH:mm:ss}-{name}.csv",
+      "transport": {
+        "handlerClassName": "exporter_project.demo.transporter.Ftp"
+      },
+      "queries": [
+        {
+          "dbVendor": "mysql-0",
+          "sql": "select firstname, lastname, active, contacttype, `Contact`.id, street, zipcode, city, country from `Contact` LEFT JOIN `Address` ON `Contact`.id=`Address`.contactid WHERE lastupdatedate > ? and lastupdatedate <= ?",
+          "params": [
+            "lastExtractDate",
+            "currentExtractDate"
+          ]
+        },
+        {
+          "dbVendor": "mysql",
+          "sql": "select firstname, lastname, active, contacttype, `Contact`.id, street, zipcode, city, country from `Contact` LEFT JOIN `Address` ON `Contact`.id=`Address`.contactid",
+          "params": []
+        }
+      ],
+      "columns": [
+        {
+          "input": "firstname",
+          "output": "FIRST_NAME_ENNOV",
+          "type": "text",
+          "transformations": [
+            {
+              "handlerClassName": "exporter_project.demo.transformer.VAL_ShowOneValue",
+              "parameters": [
+                {
+                  "key": "Duc",
+                  "value": "Non"
+                },{
+                  "key": "Minh",
+                  "value": "Non"
+                },
+                {
+                  "key": "Ennov",
+                  "value": "Qui"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "input": "firstname",
+          "output": "FIRST_NAME_DUC",
+          "type": "text",
+          "transformations": [
+            {
+              "handlerClassName": "exporter_project.demo.transformer.VAL_ShowOneValue",
+              "parameters": [
+                {
+                  "key": "Duc",
+                  "value": "Qui"
+                },{
+                  "key": "Minh",
+                  "value": "Non"
+                },
+                {
+                  "key": "Ennov",
+                  "value": "Non"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "input": "firstname",
+          "output": "FIRST_NAME_Minh",
+          "type": "text",
+          "transformations": [
+            {
+              "handlerClassName": "exporter_project.demo.transformer.VAL_ShowOneValue",
+              "parameters": [
+                {
+                  "key": "Duc",
+                  "value": "Non"
+                },{
+                  "key": "Minh",
+                  "value": "Qui"
+                },
+                {
+                  "key": "Ennov",
+                  "value": "Non"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "input": "lastname",
+          "output": "LAST_NAME",
+          "type": "text",
+          "transformations": [
+            {
+              "handlerClassName": "exporter_project.demo.transformer.VAL_ToUpperCase",
+              "parameters": []
+            },
+            {
+              "handlerClassName": "exporter_project.demo.transformer.VAL_AddPrefix",
+              "parameters": [
+                {
+                  "key": "VAL_prefix",
+                  "value": "LN_"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "input": "street",
+          "output": "STREET",
+          "type": "text"
+        },
+
+        {
+          "input": "zipcode",
+          "output": "ZIPCODE",
+          "type": "text"
+        },
+        {
+          "input": "city",
+          "output": "CITY",
+          "type": "text",
+          "transformations": [
+            {
+              "handlerClassName": "exporter_project.demo.transformer.VAL_ShortenValue",
+              "parameters": [
+                {
+                  "key": "VAL_ShortenValue",
+                  "value": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "input": "country",
+          "output": "COUNTRY",
+          "type": "text",
+          "transformations": [
+            {
+              "handlerClassName": "exporter_project.demo.transformer.COL_ChangeColName",
+              "parameters": [
+                {
+                  "key": "COL_ChangeColName",
+                  "value": "FR"
+                }
+              ]
+            }
+          ]
+        }
+      ,
+        {
+          "input": "",
+          "output": "blankfield",
+          "type": "text"
+        }
+      ],
+      "includeHeaders": true
+    }
+  ]
+}

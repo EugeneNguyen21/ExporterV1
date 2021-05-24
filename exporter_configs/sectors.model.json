@@ -1,0 +1,42 @@
+{
+  "name": "Sectors export",
+  "description": "Export of all Sectors from GE_SEC",
+  "files": [
+    {
+      "name": "SECTORS",
+      "formatter": "thymleaf_project.demo.formatter.CsvFormatter",
+      "fileNamePattern": "{DATE:YYY-MM-DD HH:mm:ss}-{name}.csv",
+      "transport": {
+        "handlerClassName": "thymleaf_project.demo.transporter.Ftp"
+      },
+      "queries": [
+        {
+          "dbVendor": "mysql-0",
+          "sql": "SELECT U_TERM_NAME, P_OBJECT_U_PARENT FROM ge_sec;",
+          "params": [
+            "lastExtractDate",
+            "currentExtractDate"
+          ]
+        },
+        {
+          "dbVendor": "mysql",
+          "sql": "SELECT U_TERM_NAME, P_OBJECT_U_PARENT FROM ge_sec;",
+          "params": []
+        }
+      ],
+      "columns": [
+        {
+          "input": "U_TERM_NAME",
+          "output": "SECTOR",
+          "type": "Text"
+        },
+        {
+          "input": "P_OBJECT_U_PARENT",
+          "output": "PARENT_SECTOR",
+          "type": "text"
+        }
+      ],
+      "includeHeaders": true
+    }
+  ]
+}

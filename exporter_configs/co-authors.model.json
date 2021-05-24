@@ -1,0 +1,47 @@
+{
+  "name": "co-authors export",
+  "description": "Export of co-authors",
+  "files": [
+    {
+      "name": "CO-AUTHORS",
+      "formatter": "thymleaf_project.demo.formatter.CsvFormatter",
+      "fileNamePattern": "{DATE:YYY-MM-DD HH:mm:ss}-{name}.csv",
+      "transport": {
+        "handlerClassName": "thymleaf_project.demo.transporter.Ftp"
+      },
+      "queries": [
+        {
+          "dbVendor": "mysql-0",
+          "sql": "",
+          "params": [
+            "lastExtractDate",
+            "currentExtractDate"
+          ]
+        },
+        {
+          "dbVendor": "mysql",
+          "sql": "",
+          "params": []
+        }
+      ],
+      "columns": [
+        {
+          "input": "",
+          "output": "EVENT_ID",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "USER_ID",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "CONTRACT_ID",
+          "type": "text"
+        }
+      ],
+      "includeHeaders": true
+    }
+  ]
+}

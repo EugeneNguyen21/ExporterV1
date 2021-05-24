@@ -1,0 +1,321 @@
+{
+  "name": "Packages export",
+  "description": "Export of all packages of GE_BUD & GE_BUD_PKG",
+  "files": [
+    {
+      "name": "PACKAGES",
+      "formatter": "thymleaf_project.demo.formatter.CsvFormatter",
+      "fileNamePattern": "{DATE:YYY-MM-DD HH:mm:ss}-{name}.csv",
+      "transport": {
+        "handlerClassName": "thymleaf_project.demo.transporter.Ftp"
+      },
+      "queries": [
+        {
+          "dbVendor": "mysql-0",
+          "sql": "SELECT ge_bud.P_REF, ge_bud.BUD_TO_OPE, ge_bud.BUD_NAME,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Registration: Congress registration' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_REGISTRATION,\nCASE \nWHEN ge_bud_pkg.EXP_TYPE = \"Registration: Congress registration\" then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_REGISTRATION,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Accommodation: Accommodation' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_ACCOMMODATION,\nCASE WHEN ge_bud_pkg.EXP_TYPE = 'Accommodation: Accommodation' then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_ACCOMMODATION,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Accommodation: Pre-night accommodation' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_ACCOMODATION_PRE,\nCASE WHEN ge_bud_pkg.EXP_TYPE = 'Accommodation: Pre-night accommodation' then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_ACCOMODATION_PRE,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Restauration: Lunch' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_DEJ,\nCASE WHEN ge_bud_pkg.EXP_TYPE = 'Restauration: Lunch' then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_DEJ,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Restauration: Dine' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_DINER,\nCASE WHEN ge_bud_pkg.EXP_TYPE = 'Restauration: Dine' then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_DINER,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Restauration: Meal' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_MEAL,\nCASE WHEN ge_bud_pkg.EXP_TYPE = 'Restauration: Meal' then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_MEAL,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Restauration: Break' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_BREAK,\nCASE WHEN ge_bud_pkg.EXP_TYPE = 'Restauration: Break' then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_BREAK,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Transport: Transport' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_TRANSPORT,\nCASE WHEN ge_bud_pkg.EXP_TYPE = 'Transport: Transport' then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_TRANSPORT,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Transport: Transfer' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_TRANSFER,\nCASE WHEN ge_bud_pkg.EXP_TYPE = 'Transport: Transfer' then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_TRANSFER\nFROM ge_bud\nJOIN ge_bud_pkg on (ge_bud.P_IDDOC = ge_bud_pkg.P_IDDOC)\n",
+          "params": [
+            "lastExtractDate",
+            "currentExtractDate"
+          ]
+        },
+        {
+          "dbVendor": "mysql",
+          "sql": "SELECT ge_bud.P_REF, ge_bud.BUD_TO_OPE, ge_bud.BUD_NAME,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Registration: Congress registration' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_REGISTRATION,\nCASE \nWHEN ge_bud_pkg.EXP_TYPE = \"Registration: Congress registration\" then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_REGISTRATION,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Accommodation: Accommodation' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_ACCOMMODATION,\nCASE WHEN ge_bud_pkg.EXP_TYPE = 'Accommodation: Accommodation' then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_ACCOMMODATION,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Accommodation: Pre-night accommodation' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_ACCOMODATION_PRE,\nCASE WHEN ge_bud_pkg.EXP_TYPE = 'Accommodation: Pre-night accommodation' then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_ACCOMODATION_PRE,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Restauration: Lunch' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_DEJ,\nCASE WHEN ge_bud_pkg.EXP_TYPE = 'Restauration: Lunch' then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_DEJ,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Restauration: Dine' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_DINER,\nCASE WHEN ge_bud_pkg.EXP_TYPE = 'Restauration: Dine' then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_DINER,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Restauration: Meal' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_MEAL,\nCASE WHEN ge_bud_pkg.EXP_TYPE = 'Restauration: Meal' then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_MEAL,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Restauration: Break' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_BREAK,\nCASE WHEN ge_bud_pkg.EXP_TYPE = 'Restauration: Break' then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_BREAK,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Transport: Transport' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_TRANSPORT,\nCASE WHEN ge_bud_pkg.EXP_TYPE = 'Transport: Transport' then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_TRANSPORT,\nCASE\nWHEN ge_bud_pkg.EXP_TYPE = 'Transport: Transfer' then 'QUI'\nWHEN ge_bud_pkg.EXP_TYPE is null then 'EMPTY'\nELSE 'NON'\nEND\nAS EXP_TYPE_TRANSFER,\nCASE WHEN ge_bud_pkg.EXP_TYPE = 'Transport: Transfer' then ge_bud_pkg.BUD_QTY*ge_bud_pkg.BUD_UNIT_AMOUNT*ge_bud_pkg.BUD_VAT else NULL END as BUD_AMOUNT_TRANSFER\nFROM ge_bud\nJOIN ge_bud_pkg on (ge_bud.P_IDDOC = ge_bud_pkg.P_IDDOC)\n",
+          "params": []
+        }
+      ],
+      "columns": [
+        {
+          "input": "P_REF",
+          "output": "GLOBAL_CARE_ID",
+          "type": "text"
+        },
+        {
+          "input": "BUD_TO_OPE",
+          "output": "EVENT_ID",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "CONTRACT_ID",
+          "type": "text"
+        },
+        {
+          "input": "BUD_NAME",
+          "output": "NAME",
+          "type": "text"
+        },{
+          "input": "EXP_TYPE_REGISTRATION",
+          "output": "REGISTRATION",
+          "type": "text"
+        },
+        {
+          "input": "BUD_AMOUNT_REGISTRATION",
+          "output": "REGISTRATION_AMOUNT",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "REGISTRATION_TEXT",
+          "type": "Text"
+        },
+        {
+          "input": "EXP_TYPE_ACCOMMODATION",
+          "output": "ACCOMMODATION",
+          "type": "TEXT"
+        },
+        {
+          "input": "BUD_AMOUNT_ACCOMMODATION",
+          "output": "ACCOMMODATION_AMOUNT",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "ACCOMMODATION_NIGHT_NUMBER",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "ACCOMODATION_DATE_IN",
+          "type": "Date"
+        },
+        {
+          "input": "",
+          "output": "ACCOMODATION_DATE_OUT",
+          "type": "Date"
+        },
+        {
+          "input": "",
+          "output": "ACCOMODATION_TEXT",
+          "type": "Text"
+        },
+        {
+          "input": "EXP_TYPE_ACCOMODATION_PRE",
+          "output": "ACCOMODATION_PRE",
+          "type": "Text"
+        },
+        {
+          "input": "BUD_AMOUNT_ACCOMODATION_PRE",
+          "output": "ACCOMODATION_PRE_AMOUNT",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "ACCOMODATION_PRE_QUANTITY",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "ACCOMODATION_PRE_DATE_IN",
+          "type": "Date"
+        },
+        {
+          "input": "",
+          "output": "ACCOMODATION_PRE_DATE_OUT",
+          "type": "Date"
+        },
+        {
+          "input": "",
+          "output": "ACCOMODATION_PRE_TEXT",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "RESTAURATION",
+          "type": "Text"
+        },
+        {
+          "input": "EXP_TYPE_DEJ",
+          "output": "RESTAURATION_DEJ",
+          "type": "Text"
+        },
+        {
+          "input": "BUD_AMOUNT_DEJ",
+          "output": "RESTAURATION_DEJ_AMOUNT",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "RESTAURATION_DEJ_QUANTITY",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "RESTAURATION_DEJ_TEXT",
+          "type": "Text"
+        },
+        {
+          "input": "EXP_TYPE_DINER",
+          "output": "RESTAURATION_DINER",
+          "type": "Text"
+        },
+        {
+          "input": "BUD_AMOUNT_DINER",
+          "output": "RESTAURATION_DINER_AMOUNT",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "RESTAURATION_DINER_QUANTITY",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "RESTAURATION_DINER_TEXT",
+          "type": "Text"
+        },
+        {
+          "input": "EXP_TYPE_MEAL",
+          "output": "RESTAURATION_MEAL",
+          "type": "Text"
+        },
+        {
+          "input": "BUD_AMOUNT_MEAL",
+          "output": "RESTAURATION_MEAL_AMOUNT",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "RESTAURATION_MEAL_NUMBER",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "RESTAURATION_MEAL_TEXT",
+          "type": "Text"
+        },
+        {
+          "input": "EXP_TYPE_BREAK",
+          "output": "RESTAURATION_BREAK",
+          "type": "Text"
+        },
+        {
+          "input": "BUD_AMOUNT_BREAK",
+          "output": "RESTAURATION_BREAK_AMOUNT",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "RESTAURATION_BREAK_NUMBER",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "RESTAURATION_BREAK_TEXT",
+          "type": "Text"
+        },
+        {
+          "input": "EXP_TYPE_TRANSPORT",
+          "output": "TRANSPORT",
+          "type": "Text"
+        },
+        {
+          "input": "BUD_AMOUNT_TRANSPORT",
+          "output": "TRANSPORT_AMOUNT",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "TRANSPORT_TEXT",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "TRANSPORT_MAIN",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "TRANSPORT_MAIN_AMOUNT",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "TRANSPORT_MAIN_TEXT",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "TRANSPORT_PPA",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "TRANSPORT_PPA_AMOUNT",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "TRANSPORT_PPA_TEXT",
+          "type": "Text"
+        },
+        {
+          "input": "EXP_TYPE_TRANSFER",
+          "output": "TRANSFER",
+          "type": "Text"
+        },
+        {
+          "input": "BUD_AMOUNT_TRANSFER",
+          "output": "TRANSFER_AMOUNT",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "TRANSFER_TEXT",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "GLOBAL_CARE",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "GLOBAL_CARE_AMOUNT",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "GLOBAL_CARE_TEXT",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "HONORARY",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "HONORARY_HOURLY_PRICE",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "HONORARY_HOURS_NUMBER",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "HONORARY_TOTAL_PRICE",
+          "type": "Numeric"
+        },
+        {
+          "input": "",
+          "output": "HONORARY_TEXT",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "DATE  PEC Global",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "DATE  PEC Honoraires",
+          "type": "Date"
+        }
+      ],
+      "includeHeaders": true
+    }
+  ]
+}

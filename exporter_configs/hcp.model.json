@@ -1,0 +1,152 @@
+{
+  "name": "HCP export",
+  "description": "Export of all HCP from GE_HCP & GE_ORG & GE_HCP_ORG_CHART",
+  "files": [
+    {
+      "name": "HCP",
+      "formatter": "thymleaf_project.demo.formatter.CsvFormatter",
+      "fileNamePattern": "{DATE:YYY-MM-DD HH:mm:ss}-{name}.csv",
+      "transport": {
+        "handlerClassName": "thymleaf_project.demo.transporter.Ftp"
+      },
+      "queries": [
+        {
+          "dbVendor": "mysql-0",
+          "sql": "SELECT ge_hcp.id, ge_hcp.TITLE, ge_hcp.LAST_NAME, ge_hcp.FIRST_NAME, ge_hcp.P_REF AS P_REF_HCP, ge_hcp.PRIMARY_EXT_ID, ge_hcp.OFFICIAL_ID, ge_hcp.TERR_ACTIV, ge_hcp.BEN_SPE, ge_hcp.CIVILITY, ge_hcp.POLITENESS, ge_org.P_REF AS P_REF_ORG, ge_org.ORG_NAME, ge_org.ORG_TYPE, ge_org.ADDRESS, ge_org.ADD_ADDRESS, ge_org.POSTAL_CD, ge_org.CITY, ge_org.COUNTRY,ge_hcp_org_chart.WORKPLC_PRIMARY, ge_hcp.STUDENT, ge_hcp.MILITARY \nFROM ge_hcp \nLEFT JOIN ge_hcp_org_chart ON (ge_hcp.P_REF = ge_hcp_org_chart.P_REF)\nLEFT JOIN ge_org ON (ge_hcp_org_chart.HCP_TO_ORG = ge_org.P_REF)",
+          "params": [
+            "lastExtractDate",
+            "currentExtractDate"
+          ]
+        },
+        {
+          "dbVendor": "mysql",
+          "sql": "SELECT ge_hcp.TITLE, ge_hcp.LAST_NAME, ge_hcp.FIRST_NAME, ge_hcp.P_REF AS P_REF_HCP, ge_hcp.PRIMARY_EXT_ID, ge_hcp.OFFICIAL_ID, ge_hcp.TERR_ACTIV, ge_hcp.BEN_SPE, ge_hcp.CIVILITY, ge_hcp.POLITENESS, ge_org.P_REF AS P_REF_ORG, ge_org.ORG_NAME, ge_org.ORG_TYPE, ge_org.ADDRESS, ge_org.ADD_ADDRESS, ge_org.POSTAL_CD, ge_org.CITY, ge_org.COUNTRY,ge_hcp_org_chart.WORKPLC_PRIMARY, ge_hcp.STUDENT, ge_hcp.MILITARY \nFROM ge_hcp \nLEFT JOIN ge_hcp_org_chart ON (ge_hcp.P_REF = ge_hcp_org_chart.P_REF)\nLEFT JOIN ge_org ON (ge_hcp_org_chart.HCP_TO_ORG = ge_org.P_REF)",
+          "params": []
+        }
+      ],
+      "columns": [
+        {
+          "input": "TITLE",
+          "output": "HCP_TITLE",
+          "type": "Text"
+        },
+        {
+          "input": "LAST_NAME",
+          "output": "HCP_LAST_NAME",
+          "type": "text"
+        },
+        {
+          "input": "FIRST_NAME",
+          "output": "HCP_FIRST_NAME",
+          "type": "text"
+        },
+        {
+          "input": "P_REF_HCP",
+          "output": "HCP_SFID",
+          "type": "text"
+        },
+        {
+          "input": "PRIMARY_EXT_ID",
+          "output": "HCP_ONE_KEY",
+          "type": "text"
+        },
+        {
+          "input": "OFFICIAL_ID",
+          "output": "HCP_NATIONAL_ID",
+          "type": "text"
+        },
+        {
+          "input": "TERR_ACTIV",
+          "output": "HCP_CUSTOMER_TYPE",
+          "type": "text"
+        },
+        {
+          "input": "BEN_SPE",
+          "output": "HCP_SPECIALTY",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "HCP_START_DATE",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "HCP_END_DATE",
+          "type": "text"
+        },
+        {
+          "input": "P_REF_ORG",
+          "output": "INSTITUTION_SFID",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "INSTITUTION_SERVICE_NAME",
+          "type": "text"
+        },
+        {
+          "input": "ORG_NAME",
+          "output": "INSTITUTION_NAME",
+          "type": "text"
+        },
+        {
+          "input": "ORG_TYPE",
+          "output": "INSTITUTION_TYPE",
+          "type": "text"
+        },
+        {
+          "input": "ADDRESS",
+          "output": "INSTITUTION_ADDRESS",
+          "type": "text"
+        },
+        {
+          "input": "ADD_ADDRESS",
+          "output": "INSTITUTION_ADDRESS_2",
+          "type": "text"
+        },
+        {
+          "input": "POSTAL_CD",
+          "output": "INSTITUTION_POSTAL_CD",
+          "type": "text"
+        },
+        {
+          "input": "CITY",
+          "output": "INSTITUTION_CITY",
+          "type": "text"
+        },
+        {
+          "input": "COUNTRY",
+          "output": "INSTITUTION_COUNTRY_CD",
+          "type": "text"
+        },
+        {
+          "input": "CIVILITY",
+          "output": "HCP_CIVILITY",
+          "type": "text"
+        },
+        {
+          "input": "POLITENESS",
+          "output": "HCP_POLITENESS",
+          "type": "text"
+        },
+        {
+          "input": "WORKPLC_PRIMARY",
+          "output": "INSTITUTION_PRIMARY_ADDRESS",
+          "type": "text"
+        },
+        {
+          "input": "STUDENT",
+          "output": "HCP_STUDENTS",
+          "type": "text"
+        },
+        {
+          "input": "MILITARY",
+          "output": "HCP_MILITARY_INSTITUTION",
+          "type": "text"
+        }
+      ],
+      "includeHeaders": true
+    }
+  ]
+}

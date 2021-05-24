@@ -1,0 +1,25 @@
+{
+  "preparationActivities": [
+    {
+      "handlerClassName": "exporter_project.demo.activity.InitiateDeltaExtract"
+    }
+  ],
+  "extractor": {
+    "dbVendor": "mysql"
+  },
+  "formatter": {
+    "outputFolder": "C:/Users/Admin/Desktop/exported_files"
+  },
+  "transport": {
+    "server": "192.168.0.104",
+    "port": "21",
+    "user": "FTP-User",
+    "password": "123456",
+    "fakeServer": true
+  },
+  "finalizationActivities": [
+    {
+      "handlerClassName": "exporter_project.demo.activity.FinalizeDeltaExtract"
+    }
+  ]
+}

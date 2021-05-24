@@ -1,0 +1,167 @@
+{
+  "name": "guests export",
+  "description": "Export of all guests GE_BEN",
+  "files": [
+    {
+      "name": "GUESTS",
+      "formatter": "thymleaf_project.demo.formatter.CsvFormatter",
+      "fileNamePattern": "{DATE:YYY-MM-DD HH:mm:ss}-{name}.csv",
+      "transport": {
+        "handlerClassName": "thymleaf_project.demo.transporter.Ftp"
+      },
+      "queries": [
+        {
+          "dbVendor": "mysql-0",
+          "sql": "select P_REF, BEN_TO_OPE, OPT_TO_MDT, STATUS_PRE, STATUS_POST, BEN_ROLE, P_ISSUER,  OPT_TO_ADD,BEN_SPE  from `ge_ben`  WHERE lastupdatedate > ? and lastupdatedate <= ?",
+          "params": [
+            "lastExtractDate",
+            "currentExtractDate"
+          ]
+        },
+        {
+          "dbVendor": "mysql",
+          "sql": "select P_REF, BEN_TO_OPE, STATUS_PRE, STATUS_POST, BEN_ROLE, P_ISSUER, OPT_TO_ADD, BEN_SPE  from `ge_ben`",
+          "params": []
+        }
+      ],
+      "columns": [
+        {
+          "input": "P_REF",
+          "output": "GUEST_ID",
+          "type": "text"
+
+        },
+        {
+          "input": "BEN_TO_OPE",
+          "output": "EVENT_ID",
+          "type": "text"
+        },
+        {
+          "input": "OPT_TO_MDT",
+          "output": "GUEST_TYPE",
+          "type": "text",
+          "transformations": [
+            {
+              "handlerClassName": "thymleaf_project.demo.transformer.ShortenValue",
+              "parameters": [
+                {
+                  "key": "ShortenValue",
+                  "value": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "input": "STATUS_PRE",
+          "output": "GUEST_STATUS",
+          "type": "text"
+        },
+        {
+          "input": "STATUS_POST",
+          "output": "GUEST_STATUS_POST",
+          "type": "text"
+        },
+        {
+          "input": "BEN_ROLE",
+          "output": "GUEST_ROLE",
+          "type": "text"
+        },
+        {
+          "input": "P_ISSUER",
+          "output": "GUEST_INVITING_USER_ID",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "GUEST_INVITING_DATE",
+          "type": "Date"
+        },
+        {
+          "input": "",
+          "output": "GLOBAL_CARE_ID",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "SIGNATURE_DATE",
+          "type": "Date"
+        },
+        {
+          "input": "OPT_TO_ADD",
+          "output": "HCP_INSTITUTION_ID",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "GUEST_LOCATION_DISTANCE",
+          "type": "Text",
+          "transformations": [
+            {
+              "handlerClassName": "thymleaf_project.demo.transformer.Mapper",
+              "parameters": [
+                {
+                  "key": "mappingTable",
+                  "value": {
+                    "": null
+                  }
+                },
+                {
+                  "key": "defaultValue",
+                  "value": "Moins de 50kms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "input": "",
+          "output": "HCP_INSTITUTION_SERVICE_ID",
+          "type": "Text"
+        },
+        {
+          "input": "BEN_SPE",
+          "output": "GUEST_SPECIALTY",
+          "type": "Text"
+        }
+      ],
+      "includeHeaders": true
+    },
+    {
+      "name": "SECTORS",
+      "formatter": "thymleaf_project.demo.formatter.CsvFormatter",
+      "fileNamePattern": "{DATE:YYY-MM-DD HH:mm:ss}-{name}.csv",
+      "transport": {
+        "handlerClassName": "thymleaf_project.demo.transporter.Ftp"
+      },
+      "queries": [
+        {
+          "dbVendor": "mysql-0",
+          "sql": "SELECT U_TERM_NAME, P_OBJECT_U_PARENT FROM ge_sec;",
+          "params": [
+            "lastExtractDate",
+            "currentExtractDate"
+          ]
+        },
+        {
+          "dbVendor": "mysql",
+          "sql": "SELECT U_TERM_NAME, P_OBJECT_U_PARENT FROM ge_sec;",
+          "params": []
+        }
+      ],
+      "columns": [
+        {
+          "input": "U_TERM_NAME",
+          "output": "SECTOR",
+          "type": "Text"
+        },
+        {
+          "input": "P_OBJECT_U_PARENT",
+          "output": "PARENT_SECTOR",
+          "type": "text"
+        }
+      ],
+      "includeHeaders": true
+    }
+  ]
+}

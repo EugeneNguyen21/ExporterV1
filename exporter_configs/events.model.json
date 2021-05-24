@@ -1,0 +1,182 @@
+{
+  "name": "Event export",
+  "description": "Export of all events GE_RNT",
+  "files": [
+    {
+      "name": "EVENTS",
+      "formatter": "exporter_project.demo.formatter.CsvFormatter",
+      "fileNamePattern": "{DATE:YYY-MM-DD HH:mm:ss}-{name}.csv",
+      "transport": {
+        "handlerClassName": "exporter_project.demo.transporter.Ftp"
+      },
+      "queries": [
+        {
+          "dbVendor": "mysql-0",
+          "sql": "select P_REF, id, CURRENT_ACT_NAME, EVENT_TYPE, OPE_NAME, START_DATE_TIME, END_DATE_TIME, EVENT_VENUE, ADDRESS, POSTAL_CD, COUNTRY, ADD_ADDRESS, P_ISSUER, BU_SERVICE, CITY  from `ge_rnt` WHERE lastupdatedate > ? and lastupdatedate <= ?",
+          "params": [
+            "lastExtractDate",
+            "currentExtractDate"
+          ]
+        },
+        {
+          "dbVendor": "mysql",
+          "sql": "select P_REF, id, CURRENT_ACT_NAME, EVENT_TYPE, OPE_NAME, START_DATE_TIME, END_DATE_TIME, EVENT_VENUE, ADDRESS, POSTAL_CD, COUNTRY, ADD_ADDRESS, P_ISSUER, BU_SERVICE, CITY  from `ge_rnt`",
+          "params": []
+        }
+      ],
+      "columns": [
+        {
+          "input": "P_REF",
+          "output": "EVENT_ID",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EVENT_PARENT_ID",
+          "type": "text"
+        },
+        {
+          "input": "id",
+          "output": "EVENT_SECONDARY_ID_1",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EVENT_SECONDARY_ID_2",
+          "type": "text"
+        },
+        {
+          "input": "",
+          "output": "EVENT_SECONDARY_ID_3",
+          "type": "text"
+        },
+        {
+          "input": "CURRENT_ACT_NAME",
+          "output": "EVENT_STATUS",
+          "type": "text"
+        },
+        {
+          "input": "EVENT_TYPE",
+          "output": "EVENT_TYPE",
+          "type": "Text"
+        },
+        {
+          "input": "OPE_NAME",
+          "output": "EVENT_TITLE",
+          "type": "Text"
+        },
+        {
+          "input": "START_DATE_TIME",
+          "output": "EVENT_START_DATE",
+          "type": "Date"
+        },
+        {
+          "input": "END_DATE_TIME",
+          "output": "EVENT_END_DATE",
+          "type": "Date"
+        },
+        {
+          "input": "START_DATE_TIME",
+          "output": "EVENT_START_TIME",
+          "type": "Hour"
+        },
+        {
+          "input": "END_DATE_TIME",
+          "output": "EVENT_END_TIME",
+          "type": "Hour"
+        },
+        {
+          "input": "EVENT_VENUE",
+          "output": "EVENT_VENUE",
+          "type": "Text"
+        },
+        {
+          "input": "ADDRESS",
+          "output": "EVENT_ADDRESS",
+          "type": "Text"
+        },
+        {
+          "input": "POSTAL_CD",
+          "output": "EVENT_POSTAL_CODE",
+          "type": "Text"
+        },
+        {
+          "input": "COUNTRY",
+          "output": "EVENT_COUNTRY_IDAHE",
+          "type": "Text"
+        },
+        {
+          "input": "ADD_ADDRESS",
+          "output": "EVENT_COMMENT",
+          "type": "Text"
+        },
+        {
+          "input": "P_ISSUER",
+          "output": "EVENT_ORGANISER_USER_ID",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "EVENT_COMMENT_SUIVI",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "EVENT_DMOS_MANAGER",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "EVENT_HCP_CUSTOMER_TYPE",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "EVENT_SPECIALTY_TYPE",
+          "type": "Text"
+        },
+        {
+          "input": "BU_SERVICE",
+          "output": "EVENT_BU_SERVICE",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "EVENT_MAXIMUM_GUEST",
+          "type": "Number"
+        },
+        {
+          "input": "",
+          "output": "EVENT_DURATION",
+          "type": "Number"
+        },
+        {
+          "input": "",
+          "output": "EVENT_IDAHE_SPECIALTY",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "EVENT_VALIDATION_REF",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "EVENT_SELECTION_REF",
+          "type": "Text"
+        },
+        {
+          "input": "CITY",
+          "output": "EVENT_CITY",
+          "type": "Text"
+        },
+        {
+          "input": "",
+          "output": "EVENT_LEADER",
+          "type": "Text"
+        }
+      ],
+      "includeHeaders": true
+    }
+  ]
+}
