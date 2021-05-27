@@ -2,6 +2,7 @@ package exporter_project.demo.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import exporter_project.demo.*;
+import exporter_project.demo.extractor.Row;
 import exporter_project.demo.extractor.TableExtractor;
 import exporter_project.demo.formatter.JsonFormatter;
 import org.apache.logging.log4j.LogManager;
@@ -17,6 +18,8 @@ import exporter_project.demo.configuration.Query;
 import exporter_project.demo.deployment.Deployment;
 import exporter_project.demo.transporter.Ftp;
 
+import javax.sql.rowset.CachedRowSet;
+import javax.sql.rowset.RowSetProvider;
 import java.io.File;
 import java.io.IOException;
 import java.security.MessageDigest;
@@ -24,7 +27,9 @@ import java.security.NoSuchAlgorithmException;
 import java.sql.*;
 import java.text.ParseException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 public class Exporter {
@@ -38,6 +43,8 @@ public class Exporter {
 
     @Value("${export.deployment.filename}")
     private String deploymentFileName;
+
+
 
 
     @Autowired
@@ -61,6 +68,9 @@ public class Exporter {
     @Autowired
     HashFunction hashFunction;
 
+    @Autowired
+    JsonFormatter jsonFormatter;
+
     @Value("${spring.datasource.url}")
     private String datasourceURL;
 
@@ -69,9 +79,6 @@ public class Exporter {
 
     @Value("${spring.datasource.password}")
     private String datasourcePassword;
-
-    @Autowired
-    JsonFormatter jsonFormatter;
 
     public JSONObject exportFromDB() throws IOException, SQLException, NoSuchAlgorithmException {
         JSONObject jsonObjectArray = new JSONObject();
@@ -117,32 +124,79 @@ public class Exporter {
                             }
 
                             String filePath = null;
-                            ResultSet rs = null;
-                            int rowNum = 0;
+                            Connection connection = null;
+                            PreparedStatement statement = null;
                             ArrayList<String> inputColumns = (ArrayList<String>) file.getInputColumnNames();
                             ArrayList<String> outputColumns = (ArrayList<String>) file.getOutputColumnNames();
                             ArrayList<ArrayList<KeyValue>> allValueInRs = new ArrayList<>();
-                            ResultSet resultSet;
 
-                            try{
-                                Connection con=DriverManager.getConnection(
-                                        datasourceURL,datasourceUsername,datasourcePassword);
-                                Statement stmt=con.createStatement();
-                                resultSet=stmt.executeQuery(query.get().getSql());
-                                ResultSetMetaData rsmd = resultSet.getMetaData();
-                                int columnsNumber = rsmd.getColumnCount();
-
-                                while(resultSet.next()) {
-                                    ArrayList<KeyValue> valueInOneRow = new ArrayList<>();
-
-                                    for (int i = 1; i <= columnsNumber; i++) {
-                                        valueInOneRow.add(new KeyValue(rsmd.getColumnName(i), resultSet.getString(i)));
+                            jdbcTemplate.query(
+                                    query.get().getSql(),
+                                    query.get().getParamValues(),
+                                    (rs, rowNum) -> {
+                                        List<String> resultSetColNames = new ArrayList<>();
+                                        int colCount = rs.getMetaData().getColumnCount();
+                                        for (int i = 1; i <= colCount; i++) {
+                                            resultSetColNames.add(rs.getMetaData().getColumnName(i));
+                                        }
+                                        Row row =  new Row(
+                                                resultSetColNames.
+                                                        stream().
+                                                        map(
+                                                                colName -> {
+                                                                    KeyValue kv = new KeyValue(colName, "");
+                                                                    try {
+                                                                        kv.setValue(rs.getObject(String.valueOf(colName)));
+                                                                    } catch (SQLException throwables) {
+                                                                        throwables.printStackTrace();
+                                                                    }
+                                                                    return kv;
+                                                                }
+                                                        ).collect(Collectors.toList())
+                                        );
+                                        resultSetObject.setValues(row);
+                                        return null;
                                     }
-                                    allValueInRs.add(valueInOneRow);
-                                }
-                                resultSetObject.setValues(allValueInRs);
-                                con.close();
-                            }catch(Exception e){ System.out.println(e);}
+                            );
+
+
+
+//                            try{
+//                                connection = DriverManager.getConnection(datasourceURL, datasourceUsername, datasourcePassword);
+//                                statement = connection.prepareStatement(query.get().getSql());
+//                                rs = statement.executeQuery();
+//                                ResultSetMetaData rsmd = rs.getMetaData();
+//
+//                                List<String> resultSetColNames = new ArrayList<>();
+//                                int colCount = rsmd.getColumnCount();
+//                                for (int i = 1; i <= colCount; i++) {
+//                                    resultSetColNames.add(rsmd.getColumnName(i));
+//                                }
+//
+//                                while(rs.next()) {
+//
+//                                    Row row = new Row(
+//                                            resultSetColNames.
+//                                                    stream().
+//                                                    map(
+//                                                            colName -> {
+//                                                                KeyValue kv;
+//                                                                try {
+//                                                                    kv = new KeyValue(colName, finalRs.getObject(String.valueOf(colName)));
+//                                                                    return kv;
+//                                                                } catch (SQLException throwables) {
+//                                                                    throwables.printStackTrace();
+//                                                                }
+//
+//                                                            }
+//                                                    ).collect(Collectors.toList())
+//                                    );
+//                                    resultSetObject.setValues(row);
+//                                }
+//
+//                                datasourceConnection.closeConnection();
+//                            }catch(Exception e){ System.out.println(e);}
+
 
                             // Formatting & Transformation
                             IFormatter formatter;

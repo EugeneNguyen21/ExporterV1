@@ -1,37 +1,29 @@
 package exporter_project.demo.extractor;
 
+import exporter_project.demo.configuration.OutputFile;
+import exporter_project.demo.service.DatasourceConnection;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import exporter_project.demo.KeyValue;
 
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Component
 public class ResultSetObject {
 
-    private ArrayList<ArrayList<KeyValue>> values = new ArrayList<>();
+    List<Row> resultSetValues = new ArrayList<>();
 
-    public void addNewValue(ArrayList<KeyValue> keyValues){
-        values.add(keyValues);
-    }
-    public void setValues(ArrayList<ArrayList<KeyValue>> values) {
-        this.values = values;
+    public void setValues(Row row){
+        resultSetValues.add(row);
     }
 
-    public ArrayList<ArrayList<KeyValue>> getValues() {
-        return values;
+    public List<Row> getValues(){
+        return resultSetValues;
     }
-
-    public Object getSingleValue(String inputColName, int rowIndex){
-        ArrayList<KeyValue> row = getValues().get(rowIndex);
-        for (KeyValue keyValue : row) {
-            if (inputColName.equals(keyValue.getKey())) {
-                return keyValue.getValue();
-            }
-        }
-        return "";
-    }
-
-
-
 
 }

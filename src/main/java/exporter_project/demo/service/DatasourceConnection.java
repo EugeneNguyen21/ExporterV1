@@ -23,8 +23,6 @@ public class DatasourceConnection {
     ResultSet resultSet = null;
 
     public ResultSet ConnectToDB(String sql) throws SQLException {
-
-
         try {
             connection = DriverManager.getConnection(datasourceURL, datasourceUsername, datasourcePassword);
             statement = connection.prepareStatement(sql);
@@ -39,5 +37,17 @@ public class DatasourceConnection {
 
     public void closeConnection() throws SQLException {
         connection.close();
+    }
+
+    public String getDatasourceURL() {
+        return datasourceURL;
+    }
+
+    public String getDatasourceUsername() {
+        return datasourceUsername;
+    }
+
+    public String getDatasourcePassword() {
+        return datasourcePassword;
     }
 }

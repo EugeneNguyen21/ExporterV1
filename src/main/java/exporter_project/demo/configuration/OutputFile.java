@@ -1,6 +1,7 @@
 package exporter_project.demo.configuration;
 
 import exporter_project.demo.KeyValue;
+import exporter_project.demo.extractor.Row;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -100,7 +101,7 @@ public class OutputFile {
                 .collect(Collectors.toList());
     }
 
-    public Object transform(String outputColumnName, Object value, ArrayList<KeyValue> row) {
+    public Object transform(String outputColumnName, Object value, Row row) {
 
         Object _value = value;
         for(Transformation transformation : getTransformations(outputColumnName)) {

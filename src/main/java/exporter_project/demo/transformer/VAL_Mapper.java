@@ -3,6 +3,7 @@ package exporter_project.demo.transformer;
 import exporter_project.demo.ITransformer;
 import exporter_project.demo.KeyValue;
 import exporter_project.demo.configuration.Transformation;
+import exporter_project.demo.extractor.Row;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -20,7 +21,7 @@ public class VAL_Mapper implements ITransformer {
     }
 
     @Override
-    public Object transform(Transformation transformation, Object input, List<KeyValue> parameters, ArrayList<KeyValue> row) {
+    public Object transform(Transformation transformation, Object input, List<KeyValue> parameters, Row row) {
 
         Map mappingTable = (Map)transformation.getParameterValue(MAPPING_TABLE);
         if (mappingTable==null) {

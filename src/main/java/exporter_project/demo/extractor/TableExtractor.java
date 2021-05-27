@@ -17,7 +17,7 @@ public class TableExtractor{
 
     private static final Logger log = LogManager.getLogger(TableExtractor.class);
 
-    public List<Row> extract(
+    public void extract(
             OutputFile file,
             JdbcTemplate jdbcTemplate,
             String sql,
@@ -35,42 +35,34 @@ public class TableExtractor{
             log.info("currentExtractDate : " + queryParams[1]);
         }
 
-        return jdbcTemplate.query(
-                sql,
-                queryParams,
-                (rs, rowNum) -> {
-                    Row row =  new Row(
-                            file.getOutputColumnNames()
-                                    .stream()
-                                    .map(
-                                            outputColumnName -> {
-                                                String inputColumnName = inputColumns.get(outputColumns.indexOf(outputColumnName));
-                                                try {
-                                                    KeyValue kv;
-                                                    if(inputColumnName.equals("")){
-                                                        kv = new KeyValue(
-                                                                outputColumnName,
-                                                                file.transform(outputColumnName, "", resultSetObject.getValues().get(rowNum) )          /*_value is the values of the parameters ex:UNKNOWN, ADMIN, LN_ADMIN*/
-                                                        );
-                                                    } else {
-                                                        kv = new KeyValue(
-                                                                outputColumnName,                                            /*key is each input column name ex: id, contacttype, firstname, lastname*/
-                                                                file.transform(outputColumnName, rs.getObject(inputColumnName), resultSetObject.getValues().get(rowNum))          /*_value is the values of the parameters ex:UNKNOWN, ADMIN, LN_ADMIN*/
-                                                        );                                                      /*keyvalue is the input name column and its corresponding value ex: (id, 1), (contacttype, UNKNOWN), (firstname, Ennov)*/
-                                                    }
-                                                    return kv;
-                                                } catch (SQLException e) {
-                                                    throw new RuntimeException(e);
-                                                }
-                                            }
-                                    )
-                                    .collect(Collectors.toList())
-                    );
-                    log.info("Row : " + row.toString());
+        for (int i = 0; i < resultSetObject.getValues().size(); i++) {
+            int finalI = i;
+            int finalI1 = i;
+            Row row =  new Row(
+                    file.getOutputColumnNames()
+                            .stream()
+                            .map(
+                                    outputColumnName -> {
+                                        String inputColumnName = inputColumns.get(outputColumns.indexOf(outputColumnName));
+                                        KeyValue kv;
+                                        if(inputColumnName.equals("")){
+                                            kv = new KeyValue(
+                                                    outputColumnName,
+                                                    file.transform(outputColumnName, "", resultSetObject.getValues().get(finalI))          /*_value is the values of the parameters ex:UNKNOWN, ADMIN, LN_ADMIN*/
+                                            );
+                                        } else {
+                                            kv = new KeyValue(
+                                                    outputColumnName,                                            /*key is each input column name ex: id, contacttype, firstname, lastname*/
+                                                    file.transform(outputColumnName, resultSetObject.getValues().get(finalI1).getFieldValueMap().get(inputColumnName), resultSetObject.getValues().get(finalI))          /*_value is the values of the parameters ex:UNKNOWN, ADMIN, LN_ADMIN*/
+                                            );                                                      /*keyvalue is the input name column and its corresponding value ex: (id, 1), (contacttype, UNKNOWN), (firstname, Ennov)*/
+                                        }
+                                        return kv;
+                                    }
+                            )
+                            .collect(Collectors.toList())
+            );
+            formatter.format(row); /*write reach row in csv format before closing*/
 
-                    formatter.format(row); /*write reach row in csv format before closing*/
-                    return null;
-                }
-        );
+        }
     }
 }

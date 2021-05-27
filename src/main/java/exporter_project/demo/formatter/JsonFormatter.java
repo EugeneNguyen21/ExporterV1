@@ -18,13 +18,14 @@ import org.springframework.stereotype.Service;
 import java.sql.*;
 import java.text.ParseException;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 @Configuration
 public class JsonFormatter implements IFormatter {
 
     private static final Logger log = LogManager.getLogger(CsvFormatter.class);
+
 
     public void addValueToJson(OutputFile file,
                                Object[] queryParams,
@@ -36,40 +37,73 @@ public class JsonFormatter implements IFormatter {
         ObjectMapper mapper = new ObjectMapper();
         ArrayNode jsonObjectValue = mapper.createArrayNode();
 
-        for (int i = 0; i < resultSetObject.getValues().size(); i++){
+
+        for (int i = 0; i < resultSetObject.getValues().size(); i++) {
             ObjectNode item = mapper.createObjectNode();
-            for (int j = 0; j < file.getOutputColumnNames().size(); j++) {
-                String outputColName = file.getOutputColumnNames().get(j);
-                String inputColName = inputColumns.get(outputColumns.indexOf(outputColName));
-                ArrayList<KeyValue> row = resultSetObject.getValues().get(i);
-                Object value = resultSetObject.getSingleValue(inputColName, i);
+            Row row = resultSetObject.getValues().get(i);
+            Map<String, Object> rowValueKey = row.getFieldValueMap();
 
-                KeyValue kv;
-
-                System.out.println("value before transform ");
-
-                if(inputColName.equals("")){
-                    kv = new KeyValue(
-                            outputColName,
-                            value
+            file.getOutputColumnNames()
+                    .stream()
+                    .forEach(
+                            outputColName ->{
+                                Object value = null;
+                                KeyValue kv;
+                                String inputColName = inputColumns.get(outputColumns.indexOf(outputColName));
+                                    if(rowValueKey.containsKey(inputColName)){
+                                        value = rowValueKey.get(inputColName);
+                                        System.out.println("value is bbbbbbbbb" + value);
+                                    } else {
+                                        value = "";
+                                    }
+                                kv = new KeyValue(outputColName, value);
+                                kv.transform(outputColName,value , file, row) ;
+                                item.put(kv.getKey(), String.valueOf(kv.getValue()));
+                                System.out.println("jsonObjectValue is " + item);
+                                System.out.println("jsonObjectValue is " + kv);
+                            }
                     );
-                    kv.transform(outputColName,"" , file, row) ;
-                } else {
-                    kv = new KeyValue(
-                            outputColName,
-                            value
-                    );
-                    kv.transform(outputColName,value , file, row);
-                    System.out.println("value in JsonFormatter is " + kv.getValue() + " and key is " + kv.getKey());
-                }
-                item.put(outputColName,String.valueOf(value));
-                item.put(kv.getKey(), String.valueOf(kv.getValue()));
-            }
             jsonObjectValue.add(item);
+            System.out.println("jsonObjectValue is " + jsonObjectValue);
+
         }
         jsonObjectArray.put(file.getName(), jsonObjectValue);
 
-        log.info("Json object: " + file.getName() + " was created at " + LocalDateTime.now());
+
+//        for (int i = 0; i < resultSetObject.getValues().size(); i++){
+//            ObjectNode item = mapper.createObjectNode();
+//            for (int j = 0; j < file.getOutputColumnNames().size(); j++) {
+//                String outputColName = file.getOutputColumnNames().get(j);
+//                String inputColName = inputColumns.get(outputColumns.indexOf(outputColName));
+//                Row row = resultSetObject.getValues().get(i);
+//                Object value = resultSetObject.getFieldValue(inputColName, i);
+//
+//                KeyValue kv;
+//
+//                System.out.println("value before transform ");
+//
+//                if(inputColName.equals("")){
+//                    kv = new KeyValue(
+//                            outputColName,
+//                            value
+//                    );
+//                    kv.transform(outputColName,"" , file, row) ;
+//                } else {
+//                    kv = new KeyValue(
+//                            outputColName,
+//                            value
+//                    );
+//                    kv.transform(outputColName,value , file, row);
+//                    System.out.println("value in JsonFormatter is " + kv.getValue() + " and key is " + kv.getKey());
+//                }
+//                item.put(outputColName,String.valueOf(value));
+//                item.put(kv.getKey(), String.valueOf(kv.getValue()));
+//            }
+//            jsonObjectValue.add(item);
+//        }
+//        jsonObjectArray.put(file.getName(), jsonObjectValue);
+//
+//        log.info("Json object: " + file.getName() + " was created at " + LocalDateTime.now());
 
 //        jdbcTemplate.query(
 //                sql,

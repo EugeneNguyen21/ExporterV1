@@ -1,6 +1,7 @@
 package exporter_project.demo;
 
 import exporter_project.demo.configuration.Transformation;
+import exporter_project.demo.extractor.Row;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +12,7 @@ public interface ITransformer {
             Transformation transformation,
             Object input,
             List<KeyValue> parameters,
-            ArrayList<KeyValue> row
+            Row row
     );
 
     Object transform(

@@ -2,6 +2,7 @@ package exporter_project.demo;
 
 import exporter_project.demo.configuration.OutputFile;
 import exporter_project.demo.configuration.Transformation;
+import exporter_project.demo.extractor.Row;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,7 +40,7 @@ public class KeyValue {
     }
 
 
-    public Object transform(String outputColumnName, Object value, OutputFile file, ArrayList<KeyValue> row) {
+    public Object transform(String outputColumnName, Object value, OutputFile file, Row row) {
 
         List<Transformation> transformers = file.getTransformations(outputColumnName);
         Object _value = value;

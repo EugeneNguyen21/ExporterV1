@@ -50,6 +50,23 @@ public class Row implements RowMapper<Row> {
                 .collect(Collectors.toList());
     }
 
+    public List<KeyValue> rowKeyValues(List<String> keys) {
+
+        return keys
+                .stream()
+                .map(
+                        key -> {
+                            KeyValue kv;
+                            return kv = new KeyValue(key, fieldValueMap.get(key));
+                        }
+                )
+                .collect(Collectors.toList());
+    }
+
+    public Map<String, Object> getFieldValueMap() {
+        return fieldValueMap;
+    }
+
     @Override
     public Row mapRow(ResultSet resultSet, int i) throws SQLException {
         return null;

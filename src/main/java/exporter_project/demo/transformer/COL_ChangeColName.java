@@ -3,6 +3,7 @@ package exporter_project.demo.transformer;
 import exporter_project.demo.ITransformer;
 import exporter_project.demo.KeyValue;
 import exporter_project.demo.configuration.Transformation;
+import exporter_project.demo.extractor.Row;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +16,7 @@ public class COL_ChangeColName implements ITransformer {
     }
 
     @Override
-    public String transform(Transformation transformation, Object input, List<KeyValue> parameters, ArrayList<KeyValue> row) {
+    public String transform(Transformation transformation, Object input, List<KeyValue> parameters, Row row) {
         System.out.println("COL__ChangeColName is " + input);
 
         switch(String.valueOf(input)){
