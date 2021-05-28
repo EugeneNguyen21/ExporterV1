@@ -10,10 +10,10 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-public class VAL_Mapper implements ITransformer {
+public class Mapper implements ITransformer {
 
-    public static final String MAPPING_TABLE = "VAL_mappingTable";
-    public static final String DEFAULT_VALUE = "VAL_defaultValue";
+    public static final String MAPPING_TABLE = "mappingTable";
+    public static final String DEFAULT_VALUE = "defaultValue";
 
     @Override
     public Object transform(Transformation transformation, Object input, List<KeyValue> parameters) {

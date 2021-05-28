@@ -8,8 +8,7 @@ import exporter_project.demo.extractor.Row;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VAL_ToUpperCase implements ITransformer {
-
+public class ShowOneValue implements ITransformer {
     @Override
     public Object transform(Transformation transformation, Object input, List<KeyValue> parameters) {
         return null;
@@ -17,8 +16,12 @@ public class VAL_ToUpperCase implements ITransformer {
 
     @Override
     public Object transform(Transformation transformation, Object input, List<KeyValue> parameters, Row row) {
-        return input.toString().toUpperCase();
+        for (KeyValue kv: parameters
+             ) {
+            if(input.equals(kv.getKey())){
+                return kv.getValue();
+            }
+        }
+        return input;
     }
-
-
 }

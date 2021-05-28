@@ -8,7 +8,7 @@ import exporter_project.demo.extractor.Row;
 import java.util.ArrayList;
 import java.util.List;
 
-public class COL_ChangeColName implements ITransformer {
+public class ChangeColName implements ITransformer {
 
     @Override
     public String transform(Transformation transformation, Object input, List<KeyValue> parameters) {
@@ -17,7 +17,7 @@ public class COL_ChangeColName implements ITransformer {
 
     @Override
     public String transform(Transformation transformation, Object input, List<KeyValue> parameters, Row row) {
-        System.out.println("COL__ChangeColName is " + input);
+        System.out.println("ChangeColName is " + input);
 
         switch(String.valueOf(input)){
             case "FR":

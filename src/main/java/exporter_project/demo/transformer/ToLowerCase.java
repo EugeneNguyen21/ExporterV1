@@ -8,7 +8,7 @@ import exporter_project.demo.extractor.Row;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VAL_ToLowerCase implements ITransformer {
+public class ToLowerCase implements ITransformer {
 
     @Override
     public Object transform(Transformation transformation, Object input, List<KeyValue> parameters) {

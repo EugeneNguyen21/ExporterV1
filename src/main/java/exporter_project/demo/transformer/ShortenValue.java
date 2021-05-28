@@ -8,13 +8,7 @@ import exporter_project.demo.extractor.Row;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VAL_AddPrefix implements ITransformer {
-
-    public static final String PREFIX = "VAL_prefix";
-
-    public String getTransformerName (){
-        return "VAL_prefix";
-    }
+public class ShortenValue implements ITransformer {
 
     @Override
     public Object transform(Transformation transformation, Object input, List<KeyValue> parameters) {
@@ -23,8 +17,12 @@ public class VAL_AddPrefix implements ITransformer {
 
     @Override
     public Object transform(Transformation transformation, Object input, List<KeyValue> parameters, Row row) {
-
-        return transformation.getParameterValue(PREFIX).toString() + input;
+        if(input == null || String.valueOf(input).equals("")){
+            return "";
+        } else {
+            return String.valueOf(input).charAt(0);
+        }
     }
-}
 
+
+}

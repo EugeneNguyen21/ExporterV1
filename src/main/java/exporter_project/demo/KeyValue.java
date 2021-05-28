@@ -45,19 +45,10 @@ public class KeyValue {
         List<Transformation> transformers = file.getTransformations(outputColumnName);
         Object _value = value;
 
-                for(Transformation transformation : transformers) {
-            switch(transformation.getHandlerClassName().substring(34,37)){
-                case "VAL":
-                    setValue(transformation.getTransformer().transform(transformation, value, transformation.getParameters(), row));
-                    break;
-                case "COL":
-                    setKey((String) transformation.getTransformer().transform(transformation, value, transformation.getParameters(), row));
-                    break;
-                default:
-                    _value = "";
-                    break;
-            }
+        for(Transformation transformation : transformers) {
+            setValue(transformation.getTransformer().transform(transformation, value, transformation.getParameters(), row));
         }
+
         if(value == null){
             return "";
         }
