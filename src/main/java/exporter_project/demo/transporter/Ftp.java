@@ -3,8 +3,10 @@ package exporter_project.demo.transporter;
 import exporter_project.demo.ITransporter;
 import exporter_project.demo.deployment.Transport;
 import org.apache.commons.net.ftp.*;
+
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 import org.mockftpserver.fake.FakeFtpServer;
@@ -20,16 +22,16 @@ import java.io.*;
 @Component
 public class Ftp implements ITransporter {
 
-    private static final Logger log = LogManager.getLogger(Ftp.class);
+    static final org.apache.logging.log4j.Logger log = LogManager.getLogger("MyFile");
 
     private String server;
     private int port;
     private String user;
     private String password;
 
-    public static Logger getLog() {
-        return log;
-    }
+//    public static Logger getLog() {
+//        return log;
+//    }
 
     public String getServer() {
         return server;
@@ -49,6 +51,7 @@ public class Ftp implements ITransporter {
 
     @Override
     public void transport(String filePath, Transport transport) {
+        log.info("start export csv file to ftp server");
         this.server = transport.getServer();
         this.port = transport.getPort();
         this.user = transport.getUser();

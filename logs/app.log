@@ -1,0 +1,4472 @@
+{
+  "instant" : {
+    "epochSecond" : 1622759920,
+    "nanoOfSecond" : 460177500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "Starting DemoApplication using Java 16.0.1 on Admin with PID 47360 (C:\\Users\\Admin\\Desktop\\Ennov\\ExporterV1\\target\\classes started by Admin in C:\\Users\\Admin\\Desktop\\Ennov\\ExporterV1)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759920,
+    "nanoOfSecond" : 705181100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759920,
+    "nanoOfSecond" : 931123400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759920,
+    "nanoOfSecond" : 932122400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759924,
+    "nanoOfSecond" : 97420400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor",
+  "message" : "No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759924,
+    "nanoOfSecond" : 130437800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor",
+  "message" : "No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759924,
+    "nanoOfSecond" : 438513200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759924,
+    "nanoOfSecond" : 904046100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759924,
+    "nanoOfSecond" : 909043100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759926,
+    "nanoOfSecond" : 425576500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8080 (http)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759926,
+    "nanoOfSecond" : 474607600
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759926,
+    "nanoOfSecond" : 476607300
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759926,
+    "nanoOfSecond" : 478607000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.45]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759927,
+    "nanoOfSecond" : 33757300
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759927,
+    "nanoOfSecond" : 34756000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 6100 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759931,
+    "nanoOfSecond" : 504242100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor",
+  "message" : "Initializing ExecutorService 'applicationTaskExecutor'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759932,
+    "nanoOfSecond" : 108971400
+  },
+  "thread" : "restartedMain",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration",
+  "message" : "Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759932,
+    "nanoOfSecond" : 552086500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler",
+  "message" : "Initializing ExecutorService 'taskScheduler'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759932,
+    "nanoOfSecond" : 803057100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759933,
+    "nanoOfSecond" : 354027500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.endpoint.EventDrivenConsumer",
+  "message" : "Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759933,
+    "nanoOfSecond" : 355027000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.channel.PublishSubscribeChannel",
+  "message" : "Channel 'application.errorChannel' has 1 subscriber(s).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759933,
+    "nanoOfSecond" : 356026200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.endpoint.EventDrivenConsumer",
+  "message" : "started bean '_org.springframework.integration.errorLogger'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759933,
+    "nanoOfSecond" : 357025400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759933,
+    "nanoOfSecond" : 542119000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8080 (http) with context path ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759933,
+    "nanoOfSecond" : 787216100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "Started DemoApplication in 14.47 seconds (JVM running for 18.776)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759933,
+    "nanoOfSecond" : 798208500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "info",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759973,
+    "nanoOfSecond" : 614182600
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759973,
+    "nanoOfSecond" : 615181700
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759973,
+    "nanoOfSecond" : 618179300
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 3 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759973,
+    "nanoOfSecond" : 751085200
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start extract data from Datamart",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759973,
+    "nanoOfSecond" : 769072900
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759974,
+    "nanoOfSecond" : 758495600
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759974,
+    "nanoOfSecond" : 862422300
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Create empty CSV file [EVENT_V3_CONTACTS_FR_20210604 05_39_33.csv]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759974,
+    "nanoOfSecond" : 932372500
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Start import data to empty csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759975,
+    "nanoOfSecond" : 36300000
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Import to csv done -  4 rows imported to csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759975,
+    "nanoOfSecond" : 313106300
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "EVENT_V3_CONTACTS_FR_20210604 05_39_33.csv MD5 checksum: a3507d1f09d64d7600bdaae74aa11a31",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759975,
+    "nanoOfSecond" : 314105100
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start export csv file to ftp server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622759976,
+    "nanoOfSecond" : 80119000
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Export done",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760077,
+    "nanoOfSecond" : 193293600
+  },
+  "thread" : "http-nio-8080-exec-5",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start extract data from Datamart",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760077,
+    "nanoOfSecond" : 199289800
+  },
+  "thread" : "http-nio-8080-exec-5",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Create empty CSV file [EVENT_V3_CONTACTS_FR_20210604 05_41_17.csv]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760077,
+    "nanoOfSecond" : 200288900
+  },
+  "thread" : "http-nio-8080-exec-5",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Start import data to empty csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760077,
+    "nanoOfSecond" : 207284500
+  },
+  "thread" : "http-nio-8080-exec-5",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Import to csv done -  8 rows imported to csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760077,
+    "nanoOfSecond" : 249255600
+  },
+  "thread" : "http-nio-8080-exec-5",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "EVENT_V3_CONTACTS_FR_20210604 05_41_17.csv MD5 checksum: 70a7b0d8d871913588c4f72e3bdb504f",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760077,
+    "nanoOfSecond" : 249255600
+  },
+  "thread" : "http-nio-8080-exec-5",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start export csv file to ftp server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760077,
+    "nanoOfSecond" : 254251500
+  },
+  "thread" : "http-nio-8080-exec-5",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Export done",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760293,
+    "nanoOfSecond" : 759803100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "Starting DemoApplication using Java 16.0.1 on Admin with PID 41356 (C:\\Users\\Admin\\Desktop\\Ennov\\ExporterV1\\target\\classes started by Admin in C:\\Users\\Admin\\Desktop\\Ennov\\ExporterV1)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760294,
+    "nanoOfSecond" : 166911800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760294,
+    "nanoOfSecond" : 364903600
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760294,
+    "nanoOfSecond" : 368900100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760297,
+    "nanoOfSecond" : 438622700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor",
+  "message" : "No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760297,
+    "nanoOfSecond" : 449614500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor",
+  "message" : "No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760297,
+    "nanoOfSecond" : 550543500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760297,
+    "nanoOfSecond" : 775404400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760297,
+    "nanoOfSecond" : 778400800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760299,
+    "nanoOfSecond" : 398858700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8080 (http)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760299,
+    "nanoOfSecond" : 453884900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760299,
+    "nanoOfSecond" : 455882900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760299,
+    "nanoOfSecond" : 456882500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.45]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760299,
+    "nanoOfSecond" : 731888200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760299,
+    "nanoOfSecond" : 732887800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 5360 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760301,
+    "nanoOfSecond" : 850897400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor",
+  "message" : "Initializing ExecutorService 'applicationTaskExecutor'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760302,
+    "nanoOfSecond" : 515822900
+  },
+  "thread" : "restartedMain",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration",
+  "message" : "Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760302,
+    "nanoOfSecond" : 918778800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler",
+  "message" : "Initializing ExecutorService 'taskScheduler'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760303,
+    "nanoOfSecond" : 169817400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760303,
+    "nanoOfSecond" : 659802800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.endpoint.EventDrivenConsumer",
+  "message" : "Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760303,
+    "nanoOfSecond" : 661834500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.channel.PublishSubscribeChannel",
+  "message" : "Channel 'application.errorChannel' has 1 subscriber(s).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760303,
+    "nanoOfSecond" : 661834500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.endpoint.EventDrivenConsumer",
+  "message" : "started bean '_org.springframework.integration.errorLogger'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760303,
+    "nanoOfSecond" : 664831500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760303,
+    "nanoOfSecond" : 837848200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8080 (http) with context path ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760303,
+    "nanoOfSecond" : 971813800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "Started DemoApplication in 11.643 seconds (JVM running for 15.925)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760303,
+    "nanoOfSecond" : 978808800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "info",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760370,
+    "nanoOfSecond" : 604864100
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 60,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760370,
+    "nanoOfSecond" : 605863500
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 60,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760370,
+    "nanoOfSecond" : 608861500
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 3 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 60,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760370,
+    "nanoOfSecond" : 771282200
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start extract data from Datamart",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 60,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760370,
+    "nanoOfSecond" : 793265000
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 60,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760371,
+    "nanoOfSecond" : 802406500
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 60,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760371,
+    "nanoOfSecond" : 897143300
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Create empty CSV file [EVENT_V3_CONTACTS_FR_20210604 05_46_10.csv]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 60,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760371,
+    "nanoOfSecond" : 913131400
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Start import data to empty csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 60,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760371,
+    "nanoOfSecond" : 943110400
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Import to csv done -  4 rows imported to csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 60,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760371,
+    "nanoOfSecond" : 993075000
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "EVENT_V3_CONTACTS_FR_20210604 05_46_10.csv MD5 checksum: a3507d1f09d64d7600bdaae74aa11a31",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 60,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760371,
+    "nanoOfSecond" : 994074600
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start export csv file to ftp server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 60,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760372,
+    "nanoOfSecond" : 411780300
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Export done",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 60,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760383,
+    "nanoOfSecond" : 787751400
+  },
+  "thread" : "http-nio-8080-exec-3",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start extract data from Datamart",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 61,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760383,
+    "nanoOfSecond" : 791748200
+  },
+  "thread" : "http-nio-8080-exec-3",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Create empty CSV file [EVENT_V3_CONTACTS_FR_20210604 05_46_23.csv]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 61,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760383,
+    "nanoOfSecond" : 792747100
+  },
+  "thread" : "http-nio-8080-exec-3",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Start import data to empty csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 61,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760383,
+    "nanoOfSecond" : 798744200
+  },
+  "thread" : "http-nio-8080-exec-3",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Import to csv done -  8 rows imported to csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 61,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760383,
+    "nanoOfSecond" : 824725500
+  },
+  "thread" : "http-nio-8080-exec-3",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "EVENT_V3_CONTACTS_FR_20210604 05_46_23.csv MD5 checksum: 70a7b0d8d871913588c4f72e3bdb504f",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 61,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760383,
+    "nanoOfSecond" : 825725000
+  },
+  "thread" : "http-nio-8080-exec-3",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start export csv file to ftp server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 61,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760383,
+    "nanoOfSecond" : 832719700
+  },
+  "thread" : "http-nio-8080-exec-3",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Export done",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 61,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760455,
+    "nanoOfSecond" : 642232700
+  },
+  "thread" : "http-nio-8080-exec-6",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start extract data from Datamart",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 64,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760455,
+    "nanoOfSecond" : 647228100
+  },
+  "thread" : "http-nio-8080-exec-6",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Create empty CSV file [EVENT_V3_CONTACTS_FR_20210604 05_47_35.csv]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 64,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760455,
+    "nanoOfSecond" : 653224000
+  },
+  "thread" : "http-nio-8080-exec-6",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Start import data to empty csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 64,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760455,
+    "nanoOfSecond" : 665214900
+  },
+  "thread" : "http-nio-8080-exec-6",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Import to csv done -  12 rows imported to csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 64,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760455,
+    "nanoOfSecond" : 716180300
+  },
+  "thread" : "http-nio-8080-exec-6",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "EVENT_V3_CONTACTS_FR_20210604 05_47_35.csv MD5 checksum: 439cd9869def770444d554513176072f",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 64,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760455,
+    "nanoOfSecond" : 716180300
+  },
+  "thread" : "http-nio-8080-exec-6",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start export csv file to ftp server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 64,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760455,
+    "nanoOfSecond" : 726172200
+  },
+  "thread" : "http-nio-8080-exec-6",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Export done",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 64,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760597,
+    "nanoOfSecond" : 293997100
+  },
+  "thread" : "http-nio-8080-exec-9",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start extract data from Datamart",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 67,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760597,
+    "nanoOfSecond" : 297994200
+  },
+  "thread" : "http-nio-8080-exec-9",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Create empty CSV file [EVENT_V3_CONTACTS_FR_20210604 05_49_57.csv]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 67,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760597,
+    "nanoOfSecond" : 298993400
+  },
+  "thread" : "http-nio-8080-exec-9",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Start import data to empty csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 67,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760597,
+    "nanoOfSecond" : 304989200
+  },
+  "thread" : "http-nio-8080-exec-9",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Import to csv done -  16 rows imported to csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 67,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760597,
+    "nanoOfSecond" : 334968400
+  },
+  "thread" : "http-nio-8080-exec-9",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "EVENT_V3_CONTACTS_FR_20210604 05_49_57.csv MD5 checksum: b3e46a825eb035edaefab1d6d7d8d7d3",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 67,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760597,
+    "nanoOfSecond" : 334968400
+  },
+  "thread" : "http-nio-8080-exec-9",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start export csv file to ftp server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 67,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760597,
+    "nanoOfSecond" : 339964500
+  },
+  "thread" : "http-nio-8080-exec-9",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Export done",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 67,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760687,
+    "nanoOfSecond" : 313231100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "Starting DemoApplication using Java 16.0.1 on Admin with PID 9752 (C:\\Users\\Admin\\Desktop\\Ennov\\ExporterV1\\target\\classes started by Admin in C:\\Users\\Admin\\Desktop\\Ennov\\ExporterV1)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760687,
+    "nanoOfSecond" : 543105200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760687,
+    "nanoOfSecond" : 877941100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760687,
+    "nanoOfSecond" : 878940000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760691,
+    "nanoOfSecond" : 210950700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor",
+  "message" : "No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760691,
+    "nanoOfSecond" : 249952000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor",
+  "message" : "No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760691,
+    "nanoOfSecond" : 457916300
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760691,
+    "nanoOfSecond" : 888811800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760691,
+    "nanoOfSecond" : 892808300
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760692,
+    "nanoOfSecond" : 994800400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8080 (http)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760693,
+    "nanoOfSecond" : 68782000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760693,
+    "nanoOfSecond" : 70779600
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760693,
+    "nanoOfSecond" : 71779100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.45]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760693,
+    "nanoOfSecond" : 334020500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760693,
+    "nanoOfSecond" : 336018100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 5457 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760695,
+    "nanoOfSecond" : 491735300
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor",
+  "message" : "Initializing ExecutorService 'applicationTaskExecutor'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760696,
+    "nanoOfSecond" : 373564300
+  },
+  "thread" : "restartedMain",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration",
+  "message" : "Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760697,
+    "nanoOfSecond" : 29648100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler",
+  "message" : "Initializing ExecutorService 'taskScheduler'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760697,
+    "nanoOfSecond" : 448678600
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760698,
+    "nanoOfSecond" : 74738500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.endpoint.EventDrivenConsumer",
+  "message" : "Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760698,
+    "nanoOfSecond" : 75738400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.channel.PublishSubscribeChannel",
+  "message" : "Channel 'application.errorChannel' has 1 subscriber(s).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760698,
+    "nanoOfSecond" : 76737400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.endpoint.EventDrivenConsumer",
+  "message" : "started bean '_org.springframework.integration.errorLogger'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760698,
+    "nanoOfSecond" : 77737200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760698,
+    "nanoOfSecond" : 254715700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8080 (http) with context path ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760698,
+    "nanoOfSecond" : 420703000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "Started DemoApplication in 12.179 seconds (JVM running for 15.931)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760706,
+    "nanoOfSecond" : 886686100
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760706,
+    "nanoOfSecond" : 888684000
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760706,
+    "nanoOfSecond" : 890682300
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 2 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760707,
+    "nanoOfSecond" : 106531300
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start extract data from Datamart",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760707,
+    "nanoOfSecond" : 180478900
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760708,
+    "nanoOfSecond" : 446844500
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760708,
+    "nanoOfSecond" : 540373000
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "ERROR",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]",
+  "message" : "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke \"java.util.List.add(Object)\" because \"this.resultSetValues\" is null] with root cause",
+  "thrown" : {
+    "commonElementCount" : 0,
+    "localizedMessage" : "Cannot invoke \"java.util.List.add(Object)\" because \"this.resultSetValues\" is null",
+    "message" : "Cannot invoke \"java.util.List.add(Object)\" because \"this.resultSetValues\" is null",
+    "name" : "java.lang.NullPointerException",
+    "extendedStackTrace" : [ {
+      "class" : "exporter_project.demo.extractor.ResultSetObject",
+      "method" : "setValues",
+      "file" : "ResultSetObject.java",
+      "line" : 22,
+      "exact" : false,
+      "location" : "classes/",
+      "version" : "?"
+    }, {
+      "class" : "exporter_project.demo.service.Exporter",
+      "method" : "lambda$exportFromDB$2",
+      "file" : "Exporter.java",
+      "line" : 169,
+      "exact" : false,
+      "location" : "classes/",
+      "version" : "?"
+    }, {
+      "class" : "org.springframework.jdbc.core.RowMapperResultSetExtractor",
+      "method" : "extractData",
+      "file" : "RowMapperResultSetExtractor.java",
+      "line" : 94,
+      "exact" : false,
+      "location" : "spring-jdbc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.jdbc.core.RowMapperResultSetExtractor",
+      "method" : "extractData",
+      "file" : "RowMapperResultSetExtractor.java",
+      "line" : 61,
+      "exact" : false,
+      "location" : "spring-jdbc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.jdbc.core.JdbcTemplate$1",
+      "method" : "doInPreparedStatement",
+      "file" : "JdbcTemplate.java",
+      "line" : 723,
+      "exact" : false,
+      "location" : "spring-jdbc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.jdbc.core.JdbcTemplate",
+      "method" : "execute",
+      "file" : "JdbcTemplate.java",
+      "line" : 651,
+      "exact" : false,
+      "location" : "spring-jdbc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.jdbc.core.JdbcTemplate",
+      "method" : "query",
+      "file" : "JdbcTemplate.java",
+      "line" : 713,
+      "exact" : false,
+      "location" : "spring-jdbc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.jdbc.core.JdbcTemplate",
+      "method" : "query",
+      "file" : "JdbcTemplate.java",
+      "line" : 744,
+      "exact" : false,
+      "location" : "spring-jdbc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.jdbc.core.JdbcTemplate",
+      "method" : "query",
+      "file" : "JdbcTemplate.java",
+      "line" : 757,
+      "exact" : false,
+      "location" : "spring-jdbc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.jdbc.core.JdbcTemplate",
+      "method" : "query",
+      "file" : "JdbcTemplate.java",
+      "line" : 810,
+      "exact" : false,
+      "location" : "spring-jdbc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "exporter_project.demo.service.Exporter",
+      "method" : "lambda$exportFromDB$3",
+      "file" : "Exporter.java",
+      "line" : 145,
+      "exact" : false,
+      "location" : "classes/",
+      "version" : "?"
+    }, {
+      "class" : "java.util.ArrayList",
+      "method" : "forEach",
+      "file" : "ArrayList.java",
+      "line" : 1511,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "java.util.Collections$UnmodifiableCollection",
+      "method" : "forEach",
+      "file" : "Collections.java",
+      "line" : 1087,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "exporter_project.demo.service.Exporter",
+      "method" : "exportFromDB",
+      "file" : "Exporter.java",
+      "line" : 122,
+      "exact" : false,
+      "location" : "classes/",
+      "version" : "?"
+    }, {
+      "class" : "exporter_project.demo.controller.ConvertController",
+      "method" : "convertFromDB",
+      "file" : "ConvertController.java",
+      "line" : 33,
+      "exact" : false,
+      "location" : "classes/",
+      "version" : "?"
+    }, {
+      "class" : "jdk.internal.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke0",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : -2,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "jdk.internal.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : 78,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "jdk.internal.reflect.DelegatingMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "DelegatingMethodAccessorImpl.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "java.lang.reflect.Method",
+      "method" : "invoke",
+      "file" : "Method.java",
+      "line" : 567,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "org.springframework.web.method.support.InvocableHandlerMethod",
+      "method" : "doInvoke",
+      "file" : "InvocableHandlerMethod.java",
+      "line" : 197,
+      "exact" : false,
+      "location" : "spring-web-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.web.method.support.InvocableHandlerMethod",
+      "method" : "invokeForRequest",
+      "file" : "InvocableHandlerMethod.java",
+      "line" : 141,
+      "exact" : false,
+      "location" : "spring-web-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod",
+      "method" : "invokeAndHandle",
+      "file" : "ServletInvocableHandlerMethod.java",
+      "line" : 106,
+      "exact" : false,
+      "location" : "spring-webmvc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter",
+      "method" : "invokeHandlerMethod",
+      "file" : "RequestMappingHandlerAdapter.java",
+      "line" : 894,
+      "exact" : false,
+      "location" : "spring-webmvc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter",
+      "method" : "handleInternal",
+      "file" : "RequestMappingHandlerAdapter.java",
+      "line" : 808,
+      "exact" : false,
+      "location" : "spring-webmvc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter",
+      "method" : "handle",
+      "file" : "AbstractHandlerMethodAdapter.java",
+      "line" : 87,
+      "exact" : false,
+      "location" : "spring-webmvc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.web.servlet.DispatcherServlet",
+      "method" : "doDispatch",
+      "file" : "DispatcherServlet.java",
+      "line" : 1060,
+      "exact" : false,
+      "location" : "spring-webmvc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.web.servlet.DispatcherServlet",
+      "method" : "doService",
+      "file" : "DispatcherServlet.java",
+      "line" : 962,
+      "exact" : false,
+      "location" : "spring-webmvc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.web.servlet.FrameworkServlet",
+      "method" : "processRequest",
+      "file" : "FrameworkServlet.java",
+      "line" : 1006,
+      "exact" : false,
+      "location" : "spring-webmvc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.web.servlet.FrameworkServlet",
+      "method" : "doGet",
+      "file" : "FrameworkServlet.java",
+      "line" : 898,
+      "exact" : false,
+      "location" : "spring-webmvc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "javax.servlet.http.HttpServlet",
+      "method" : "service",
+      "file" : "HttpServlet.java",
+      "line" : 626,
+      "exact" : false,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "4.0.FR"
+    }, {
+      "class" : "org.springframework.web.servlet.FrameworkServlet",
+      "method" : "service",
+      "file" : "FrameworkServlet.java",
+      "line" : 883,
+      "exact" : false,
+      "location" : "spring-webmvc-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "javax.servlet.http.HttpServlet",
+      "method" : "service",
+      "file" : "HttpServlet.java",
+      "line" : 733,
+      "exact" : false,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "4.0.FR"
+    }, {
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "internalDoFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 227,
+      "exact" : false,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "doFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 162,
+      "exact" : false,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.tomcat.websocket.server.WsFilter",
+      "method" : "doFilter",
+      "file" : "WsFilter.java",
+      "line" : 53,
+      "exact" : false,
+      "location" : "tomcat-embed-websocket-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "internalDoFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 189,
+      "exact" : false,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "doFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 162,
+      "exact" : false,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.springframework.web.filter.RequestContextFilter",
+      "method" : "doFilterInternal",
+      "file" : "RequestContextFilter.java",
+      "line" : 100,
+      "exact" : false,
+      "location" : "spring-web-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.web.filter.OncePerRequestFilter",
+      "method" : "doFilter",
+      "file" : "OncePerRequestFilter.java",
+      "line" : 119,
+      "exact" : false,
+      "location" : "spring-web-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "internalDoFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 189,
+      "exact" : false,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "doFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 162,
+      "exact" : false,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.springframework.web.filter.FormContentFilter",
+      "method" : "doFilterInternal",
+      "file" : "FormContentFilter.java",
+      "line" : 93,
+      "exact" : false,
+      "location" : "spring-web-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.web.filter.OncePerRequestFilter",
+      "method" : "doFilter",
+      "file" : "OncePerRequestFilter.java",
+      "line" : 119,
+      "exact" : false,
+      "location" : "spring-web-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "internalDoFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 189,
+      "exact" : false,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "doFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 162,
+      "exact" : false,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.springframework.web.filter.CharacterEncodingFilter",
+      "method" : "doFilterInternal",
+      "file" : "CharacterEncodingFilter.java",
+      "line" : 201,
+      "exact" : false,
+      "location" : "spring-web-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.springframework.web.filter.OncePerRequestFilter",
+      "method" : "doFilter",
+      "file" : "OncePerRequestFilter.java",
+      "line" : 119,
+      "exact" : false,
+      "location" : "spring-web-5.3.6.jar",
+      "version" : "5.3.6"
+    }, {
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "internalDoFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 189,
+      "exact" : false,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "doFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 162,
+      "exact" : false,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.catalina.core.StandardWrapperValve",
+      "method" : "invoke",
+      "file" : "StandardWrapperValve.java",
+      "line" : 202,
+      "exact" : true,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.catalina.core.StandardContextValve",
+      "method" : "invoke",
+      "file" : "StandardContextValve.java",
+      "line" : 97,
+      "exact" : true,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.catalina.authenticator.AuthenticatorBase",
+      "method" : "invoke",
+      "file" : "AuthenticatorBase.java",
+      "line" : 542,
+      "exact" : true,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.catalina.core.StandardHostValve",
+      "method" : "invoke",
+      "file" : "StandardHostValve.java",
+      "line" : 143,
+      "exact" : true,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.catalina.valves.ErrorReportValve",
+      "method" : "invoke",
+      "file" : "ErrorReportValve.java",
+      "line" : 92,
+      "exact" : true,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.catalina.core.StandardEngineValve",
+      "method" : "invoke",
+      "file" : "StandardEngineValve.java",
+      "line" : 78,
+      "exact" : true,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.catalina.connector.CoyoteAdapter",
+      "method" : "service",
+      "file" : "CoyoteAdapter.java",
+      "line" : 357,
+      "exact" : true,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.coyote.http11.Http11Processor",
+      "method" : "service",
+      "file" : "Http11Processor.java",
+      "line" : 374,
+      "exact" : true,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.coyote.AbstractProcessorLight",
+      "method" : "process",
+      "file" : "AbstractProcessorLight.java",
+      "line" : 65,
+      "exact" : true,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.coyote.AbstractProtocol$ConnectionHandler",
+      "method" : "process",
+      "file" : "AbstractProtocol.java",
+      "line" : 893,
+      "exact" : true,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.tomcat.util.net.NioEndpoint$SocketProcessor",
+      "method" : "doRun",
+      "file" : "NioEndpoint.java",
+      "line" : 1707,
+      "exact" : true,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "org.apache.tomcat.util.net.SocketProcessorBase",
+      "method" : "run",
+      "file" : "SocketProcessorBase.java",
+      "line" : 49,
+      "exact" : true,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "java.util.concurrent.ThreadPoolExecutor",
+      "method" : "runWorker",
+      "file" : "ThreadPoolExecutor.java",
+      "line" : 1130,
+      "exact" : true,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "java.util.concurrent.ThreadPoolExecutor$Worker",
+      "method" : "run",
+      "file" : "ThreadPoolExecutor.java",
+      "line" : 630,
+      "exact" : true,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "org.apache.tomcat.util.threads.TaskThread$WrappingRunnable",
+      "method" : "run",
+      "file" : "TaskThread.java",
+      "line" : 61,
+      "exact" : true,
+      "location" : "tomcat-embed-core-9.0.45.jar",
+      "version" : "9.0.45"
+    }, {
+      "class" : "java.lang.Thread",
+      "method" : "run",
+      "file" : "Thread.java",
+      "line" : 831,
+      "exact" : true,
+      "location" : "?",
+      "version" : "?"
+    } ]
+  },
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760761,
+    "nanoOfSecond" : 101825700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "Starting DemoApplication using Java 16.0.1 on Admin with PID 10484 (C:\\Users\\Admin\\Desktop\\Ennov\\ExporterV1\\target\\classes started by Admin in C:\\Users\\Admin\\Desktop\\Ennov\\ExporterV1)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760761,
+    "nanoOfSecond" : 463568800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760761,
+    "nanoOfSecond" : 683555100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760761,
+    "nanoOfSecond" : 684554700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760764,
+    "nanoOfSecond" : 976142600
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor",
+  "message" : "No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760765,
+    "nanoOfSecond" : 7121000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor",
+  "message" : "No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760765,
+    "nanoOfSecond" : 135030800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760765,
+    "nanoOfSecond" : 384619900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760765,
+    "nanoOfSecond" : 387616500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760766,
+    "nanoOfSecond" : 416132900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8080 (http)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760766,
+    "nanoOfSecond" : 469095800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760766,
+    "nanoOfSecond" : 471095700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760766,
+    "nanoOfSecond" : 473093200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.45]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760766,
+    "nanoOfSecond" : 707927500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760766,
+    "nanoOfSecond" : 709926100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 5024 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760768,
+    "nanoOfSecond" : 937470300
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor",
+  "message" : "Initializing ExecutorService 'applicationTaskExecutor'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760769,
+    "nanoOfSecond" : 924222500
+  },
+  "thread" : "restartedMain",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration",
+  "message" : "Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760771,
+    "nanoOfSecond" : 89445100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler",
+  "message" : "Initializing ExecutorService 'taskScheduler'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760771,
+    "nanoOfSecond" : 658360200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760772,
+    "nanoOfSecond" : 419354700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.endpoint.EventDrivenConsumer",
+  "message" : "Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760772,
+    "nanoOfSecond" : 420353800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.channel.PublishSubscribeChannel",
+  "message" : "Channel 'application.errorChannel' has 1 subscriber(s).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760772,
+    "nanoOfSecond" : 420353800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.endpoint.EventDrivenConsumer",
+  "message" : "started bean '_org.springframework.integration.errorLogger'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760772,
+    "nanoOfSecond" : 424350800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760772,
+    "nanoOfSecond" : 544382400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8080 (http) with context path ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760772,
+    "nanoOfSecond" : 697376600
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "Started DemoApplication in 12.974 seconds (JVM running for 17.455)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760775,
+    "nanoOfSecond" : 494255800
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760775,
+    "nanoOfSecond" : 496254600
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760775,
+    "nanoOfSecond" : 498252300
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 2 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760775,
+    "nanoOfSecond" : 697113600
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start extract data from Datamart",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760775,
+    "nanoOfSecond" : 781055500
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760777,
+    "nanoOfSecond" : 365925000
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760777,
+    "nanoOfSecond" : 709425100
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Create empty CSV file [EVENT_V3_CONTACTS_FR_20210604 05_52_55.csv]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760777,
+    "nanoOfSecond" : 739405000
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Start import data to empty csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760777,
+    "nanoOfSecond" : 904287900
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Import to csv done -  1 rows imported to csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760778,
+    "nanoOfSecond" : 445313300
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "EVENT_V3_CONTACTS_FR_20210604 05_52_55.csv MD5 checksum: 43b02a2cbf7825c8cb48d48c09c3525a",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760778,
+    "nanoOfSecond" : 448310300
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start export csv file to ftp server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622760778,
+    "nanoOfSecond" : 538284800
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Export done",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761308,
+    "nanoOfSecond" : 999907600
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "Starting DemoApplication using Java 16.0.1 on Admin with PID 22444 (C:\\Users\\Admin\\Desktop\\Ennov\\ExporterV1\\target\\classes started by Admin in C:\\Users\\Admin\\Desktop\\Ennov\\ExporterV1)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761309,
+    "nanoOfSecond" : 163305300
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761309,
+    "nanoOfSecond" : 280224100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761309,
+    "nanoOfSecond" : 281222600
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761311,
+    "nanoOfSecond" : 573423900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor",
+  "message" : "No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761311,
+    "nanoOfSecond" : 597408000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor",
+  "message" : "No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761311,
+    "nanoOfSecond" : 751299200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761312,
+    "nanoOfSecond" : 132031000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761312,
+    "nanoOfSecond" : 134553300
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761312,
+    "nanoOfSecond" : 972963900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8080 (http)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761313,
+    "nanoOfSecond" : 9937400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761313,
+    "nanoOfSecond" : 11936700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761313,
+    "nanoOfSecond" : 12935800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.45]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761313,
+    "nanoOfSecond" : 191809100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761313,
+    "nanoOfSecond" : 193808100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 3909 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761314,
+    "nanoOfSecond" : 471424700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor",
+  "message" : "Initializing ExecutorService 'applicationTaskExecutor'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761315,
+    "nanoOfSecond" : 88290900
+  },
+  "thread" : "restartedMain",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration",
+  "message" : "Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761315,
+    "nanoOfSecond" : 571377500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler",
+  "message" : "Initializing ExecutorService 'taskScheduler'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761315,
+    "nanoOfSecond" : 696350700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761316,
+    "nanoOfSecond" : 118342500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.endpoint.EventDrivenConsumer",
+  "message" : "Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761316,
+    "nanoOfSecond" : 119342700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.channel.PublishSubscribeChannel",
+  "message" : "Channel 'application.errorChannel' has 1 subscriber(s).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761316,
+    "nanoOfSecond" : 120340200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.endpoint.EventDrivenConsumer",
+  "message" : "started bean '_org.springframework.integration.errorLogger'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761316,
+    "nanoOfSecond" : 121340900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761316,
+    "nanoOfSecond" : 256341700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8080 (http) with context path ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761316,
+    "nanoOfSecond" : 435310700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "Started DemoApplication in 8.384 seconds (JVM running for 13.69)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761321,
+    "nanoOfSecond" : 237217100
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761321,
+    "nanoOfSecond" : 238216200
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761321,
+    "nanoOfSecond" : 243212700
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 4 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761321,
+    "nanoOfSecond" : 398103400
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start extract data from Datamart",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761321,
+    "nanoOfSecond" : 432079400
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761322,
+    "nanoOfSecond" : 363967700
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761322,
+    "nanoOfSecond" : 475888600
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Create empty CSV file [EVENT_V3_CONTACTS_FR_20210604 06_02_01.csv]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761322,
+    "nanoOfSecond" : 523856100
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Start import data to empty csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761322,
+    "nanoOfSecond" : 564827000
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Import to csv done -  4 rows imported to csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761322,
+    "nanoOfSecond" : 771681200
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "EVENT_V3_CONTACTS_FR_20210604 06_02_01.csv MD5 checksum: a3507d1f09d64d7600bdaae74aa11a31",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761322,
+    "nanoOfSecond" : 771681200
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start export csv file to ftp server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761322,
+    "nanoOfSecond" : 893595000
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Export done",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761334,
+    "nanoOfSecond" : 719796500
+  },
+  "thread" : "http-nio-8080-exec-3",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start extract data from Datamart",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 34,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761334,
+    "nanoOfSecond" : 725789000
+  },
+  "thread" : "http-nio-8080-exec-3",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Create empty CSV file [EVENT_V3_CONTACTS_FR_20210604 06_02_14.csv]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 34,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761334,
+    "nanoOfSecond" : 726789000
+  },
+  "thread" : "http-nio-8080-exec-3",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Start import data to empty csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 34,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761334,
+    "nanoOfSecond" : 729786300
+  },
+  "thread" : "http-nio-8080-exec-3",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Import to csv done -  4 rows imported to csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 34,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761334,
+    "nanoOfSecond" : 739779200
+  },
+  "thread" : "http-nio-8080-exec-3",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "EVENT_V3_CONTACTS_FR_20210604 06_02_14.csv MD5 checksum: a3507d1f09d64d7600bdaae74aa11a31",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 34,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761334,
+    "nanoOfSecond" : 740779300
+  },
+  "thread" : "http-nio-8080-exec-3",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start export csv file to ftp server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 34,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761334,
+    "nanoOfSecond" : 747774100
+  },
+  "thread" : "http-nio-8080-exec-3",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Export done",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 34,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761344,
+    "nanoOfSecond" : 165231800
+  },
+  "thread" : "http-nio-8080-exec-4",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start extract data from Datamart",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761344,
+    "nanoOfSecond" : 171227300
+  },
+  "thread" : "http-nio-8080-exec-4",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Create empty CSV file [EVENT_V3_CONTACTS_FR_20210604 06_02_24.csv]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761344,
+    "nanoOfSecond" : 172226500
+  },
+  "thread" : "http-nio-8080-exec-4",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Start import data to empty csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761344,
+    "nanoOfSecond" : 174225500
+  },
+  "thread" : "http-nio-8080-exec-4",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Import to csv done -  4 rows imported to csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761344,
+    "nanoOfSecond" : 185217300
+  },
+  "thread" : "http-nio-8080-exec-4",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "EVENT_V3_CONTACTS_FR_20210604 06_02_24.csv MD5 checksum: a3507d1f09d64d7600bdaae74aa11a31",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761344,
+    "nanoOfSecond" : 186216600
+  },
+  "thread" : "http-nio-8080-exec-4",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start export csv file to ftp server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761344,
+    "nanoOfSecond" : 191212700
+  },
+  "thread" : "http-nio-8080-exec-4",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Export done",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761379,
+    "nanoOfSecond" : 799666900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "Starting DemoApplication using Java 16.0.1 on Admin with PID 34748 (C:\\Users\\Admin\\Desktop\\Ennov\\ExporterV1\\target\\classes started by Admin in C:\\Users\\Admin\\Desktop\\Ennov\\ExporterV1)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761380,
+    "nanoOfSecond" : 156666100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761380,
+    "nanoOfSecond" : 313697600
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761380,
+    "nanoOfSecond" : 314695600
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761384,
+    "nanoOfSecond" : 52933400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor",
+  "message" : "No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761384,
+    "nanoOfSecond" : 70967100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor",
+  "message" : "No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761384,
+    "nanoOfSecond" : 193952300
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761384,
+    "nanoOfSecond" : 541997100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761384,
+    "nanoOfSecond" : 544995000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+  "message" : "Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761385,
+    "nanoOfSecond" : 861833800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8080 (http)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761385,
+    "nanoOfSecond" : 902841100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761385,
+    "nanoOfSecond" : 904839900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761385,
+    "nanoOfSecond" : 906838200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.45]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761386,
+    "nanoOfSecond" : 260767100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761386,
+    "nanoOfSecond" : 261765900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 5945 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761388,
+    "nanoOfSecond" : 134859900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor",
+  "message" : "Initializing ExecutorService 'applicationTaskExecutor'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761388,
+    "nanoOfSecond" : 917871500
+  },
+  "thread" : "restartedMain",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration",
+  "message" : "Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761389,
+    "nanoOfSecond" : 647792400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler",
+  "message" : "Initializing ExecutorService 'taskScheduler'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761390,
+    "nanoOfSecond" : 86846100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761390,
+    "nanoOfSecond" : 727836100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.endpoint.EventDrivenConsumer",
+  "message" : "Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761390,
+    "nanoOfSecond" : 734830400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.channel.PublishSubscribeChannel",
+  "message" : "Channel 'application.errorChannel' has 1 subscriber(s).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761390,
+    "nanoOfSecond" : 735829700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.integration.endpoint.EventDrivenConsumer",
+  "message" : "started bean '_org.springframework.integration.errorLogger'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761390,
+    "nanoOfSecond" : 737828300
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761390,
+    "nanoOfSecond" : 874853700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8080 (http) with context path ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761391,
+    "nanoOfSecond" : 147822000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "exporter_project.demo.DemoApplication",
+  "message" : "Started DemoApplication in 12.796 seconds (JVM running for 17.974)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761426,
+    "nanoOfSecond" : 492570800
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 42,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761426,
+    "nanoOfSecond" : 494569100
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 42,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761426,
+    "nanoOfSecond" : 500565200
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 3 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 42,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761426,
+    "nanoOfSecond" : 876505800
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start extract data from Datamart",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 42,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761426,
+    "nanoOfSecond" : 912991300
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 42,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761428,
+    "nanoOfSecond" : 113336600
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 42,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761428,
+    "nanoOfSecond" : 359256000
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Create empty CSV file [EVENT_V3_CONTACTS_FR_20210604 06_03_46.csv]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 42,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761429,
+    "nanoOfSecond" : 217142700
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Start import data to empty csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 42,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761429,
+    "nanoOfSecond" : 421144500
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Import to csv done -  4 rows imported to csv file",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 42,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761429,
+    "nanoOfSecond" : 740184700
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "EVENT_V3_CONTACTS_FR_20210604 06_03_46.csv MD5 checksum: a3507d1f09d64d7600bdaae74aa11a31",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 42,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761429,
+    "nanoOfSecond" : 740184700
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "start export csv file to ftp server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 42,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622761429,
+    "nanoOfSecond" : 919198000
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "MyFile",
+  "message" : "Export done",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 42,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622792953,
+    "nanoOfSecond" : 637097900
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h15m54s143ms182µs200ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 61,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}
+{
+  "instant" : {
+    "epochSecond" : 1622804251,
+    "nanoOfSecond" : 624071400
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m47s622ms116µs).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 61,
+  "threadPriority" : 5,
+  "StudytonightField" : "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+}

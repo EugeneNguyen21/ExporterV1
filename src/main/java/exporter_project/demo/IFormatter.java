@@ -1,5 +1,6 @@
 package exporter_project.demo;
 
+import exporter_project.demo.extractor.ResultSetObject;
 import exporter_project.demo.extractor.Row;
 
 import java.sql.SQLException;
@@ -23,5 +24,5 @@ public interface IFormatter {
 
     void format(Row row);
 
-    void close();
+    void close(ResultSetObject resultSetObject);
 }

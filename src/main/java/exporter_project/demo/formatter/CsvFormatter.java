@@ -1,11 +1,14 @@
 package exporter_project.demo.formatter;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+
 import exporter_project.demo.IFormatter;
+import exporter_project.demo.extractor.ResultSetObject;
 import exporter_project.demo.extractor.Row;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.text.DateFormat;
@@ -15,7 +18,7 @@ import java.util.*;
 
 public class CsvFormatter implements IFormatter {
 
-    private static final Logger log = LogManager.getLogger(CsvFormatter.class);
+    static final Logger log = LogManager.getLogger("MyFile");
 
     List<String> inputColumns;
     String[] headers;
@@ -29,32 +32,24 @@ public class CsvFormatter implements IFormatter {
             List<String> inputColumns,
             String[] headers,
             boolean includeHeaders,
-            String name,
+            String fileName,
             String fileNamePattern,
             String outputFolder
     ) {
-
-
-        log.info("Init Csv Converter");
 
         this.inputColumns = inputColumns;
         this.headers = headers;
         this.includeHeaders = includeHeaders;
 
-        Date date = Calendar.getInstance().getTime();
-        DateFormat dateFormat = new SimpleDateFormat("yyyyMMdd hh_mm");
-        String extractDate = dateFormat.format(date);
-        System.out.println("extract date is " + extractDate);
-
-
         // TODO fileNamePattern
-        String fileName = "EVENT_V3_"+ name+ "_FR_" + extractDate + ".csv";
         String filePath = outputFolder + File.separator + fileName;
 
+        log.info("Create empty CSV file " + "[" + fileName + "]");
 
         try {
 
             out = new FileWriter(filePath);
+            System.out.println("");
 
         } catch(IOException e) {
 
@@ -67,12 +62,6 @@ public class CsvFormatter implements IFormatter {
                     new CSVPrinter(out, CSVFormat.POSTGRESQL_CSV.withHeader(headers).withDelimiter('|'))
                     :
                     new CSVPrinter(out, CSVFormat.POSTGRESQL_CSV);
-
-            log.info("CSV file: " + fileName + " was created at " + LocalDateTime.now());
-            log.trace("trace logger");
-            log.error("error");
-            log.warn("warn");
-            log.fatal("fatal");
 
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -90,16 +79,18 @@ public class CsvFormatter implements IFormatter {
             Row row
     ) {
         try {
-            log.info("the row info is " + row.toString());
+//            log.info("the row info is " + row.toString());
             printer.printRecord(row.rowValues(Arrays.asList(headers)));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
 
-    public void close() {
+    public void close(ResultSetObject resultSetObject) {
         try {
             printer.close();
+            resultSetObject.getValues().clear();
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

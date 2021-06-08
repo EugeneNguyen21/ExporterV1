@@ -5,9 +5,12 @@ import exporter_project.demo.*;
 import exporter_project.demo.extractor.Row;
 import exporter_project.demo.extractor.TableExtractor;
 import exporter_project.demo.formatter.JsonFormatter;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.simple.JSONObject;
+
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -25,16 +28,18 @@ import java.io.IOException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.sql.*;
+import java.text.DateFormat;
 import java.text.ParseException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import java.util.Date;
+import java.util.logging.SimpleFormatter;
 import java.util.stream.Collectors;
 
 @Service
 public class Exporter {
 
-    private final Logger log = LogManager.getLogger(DemoApplication.class);
+    static final Logger log = LogManager.getLogger("MyFile");
 
     public final String MODEL_NAME = "MODEL_NAME";
 
@@ -81,6 +86,7 @@ public class Exporter {
     private String datasourcePassword;
 
     public JSONObject exportFromDB() throws IOException, SQLException, NoSuchAlgorithmException {
+
         JSONObject jsonObjectArray = new JSONObject();
 
         File modelFile = new File(modelFileName);
@@ -109,14 +115,17 @@ public class Exporter {
         // preparation activities
         deployment
                 .getPreparationActivities()
-                .stream()
                 .forEach(activity -> activity.getActivityHandler().execute(jdbcTemplate, activity));
 
         model
                 .getFiles()
-                .stream()
                 .forEach(
                         file -> {
+
+                            Date date = Calendar.getInstance().getTime();
+                            DateFormat dateFormat = new SimpleDateFormat("yyyyMMdd hh_mm_ss");
+                            String extractDate = dateFormat.format(date);
+                            String fileName = "EVENT_V3_"+ file.getName()+ "_FR_" + extractDate + ".csv";
 
                             Optional<Query> query = file.getQuery(deployment.getExtractor().getDbVendor());
                             if (query.isEmpty()) {
@@ -124,12 +133,10 @@ public class Exporter {
                             }
 
                             String filePath = null;
-                            Connection connection = null;
-                            PreparedStatement statement = null;
                             ArrayList<String> inputColumns = (ArrayList<String>) file.getInputColumnNames();
                             ArrayList<String> outputColumns = (ArrayList<String>) file.getOutputColumnNames();
-                            ArrayList<ArrayList<KeyValue>> allValueInRs = new ArrayList<>();
 
+                            log.info("start extract data from Datamart");
                             jdbcTemplate.query(
                                     query.get().getSql(),
                                     query.get().getParamValues(),
@@ -159,45 +166,6 @@ public class Exporter {
                                     }
                             );
 
-
-
-//                            try{
-//                                connection = DriverManager.getConnection(datasourceURL, datasourceUsername, datasourcePassword);
-//                                statement = connection.prepareStatement(query.get().getSql());
-//                                rs = statement.executeQuery();
-//                                ResultSetMetaData rsmd = rs.getMetaData();
-//
-//                                List<String> resultSetColNames = new ArrayList<>();
-//                                int colCount = rsmd.getColumnCount();
-//                                for (int i = 1; i <= colCount; i++) {
-//                                    resultSetColNames.add(rsmd.getColumnName(i));
-//                                }
-//
-//                                while(rs.next()) {
-//
-//                                    Row row = new Row(
-//                                            resultSetColNames.
-//                                                    stream().
-//                                                    map(
-//                                                            colName -> {
-//                                                                KeyValue kv;
-//                                                                try {
-//                                                                    kv = new KeyValue(colName, finalRs.getObject(String.valueOf(colName)));
-//                                                                    return kv;
-//                                                                } catch (SQLException throwables) {
-//                                                                    throwables.printStackTrace();
-//                                                                }
-//
-//                                                            }
-//                                                    ).collect(Collectors.toList())
-//                                    );
-//                                    resultSetObject.setValues(row);
-//                                }
-//
-//                                datasourceConnection.closeConnection();
-//                            }catch(Exception e){ System.out.println(e);}
-
-
                             // Formatting & Transformation
                             IFormatter formatter;
                             try {
@@ -207,13 +175,12 @@ public class Exporter {
                             }
 
 
-
                             try {
                                 filePath = formatter.init(                  /*create empty csv file + format + name format + return filepath*/
                                         inputColumns,
                                         outputColumns.toArray(new String[]{}),
                                         file.isIncludeHeaders(),
-                                        file.getName(),
+                                        fileName,
                                         file.getFileNamePattern(),
                                         deployment.getFormatter().getOutputFolder()
                                 );
@@ -244,19 +211,7 @@ public class Exporter {
                                     outputColumns
                             );
 
-
-                            formatter.close(); /*finished writing content for csv file*/
-
-//                            // Transport
-//                            ITransporter transporter;
-//                            try {
-//                                transporter = (ITransporter) Class.forName(file.getTransport().getHandlerClassName()).getConstructor().newInstance();
-//                            } catch (Exception e) {
-//                                throw new RuntimeException(e);
-//                            }
-
-//                            transporter.transport(filePath, deployment.getTransport());
-                            ftp.transport(filePath, deployment.getTransport());
+                            formatter.close(resultSetObject); /*finished writing content for csv file*/
 
                             File csvFile = new File(filePath);
                             MessageDigest messageDigest = null;
@@ -266,10 +221,13 @@ public class Exporter {
                                 e.printStackTrace();
                             }
                             try {
-                                System.out.println(hashFunction.checksum(messageDigest, csvFile));
+                                log.info(fileName + " MD5 checksum: " + hashFunction.checksum(messageDigest, csvFile));
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
+
+                            ftp.transport(filePath, deployment.getTransport());
+                            log.info("Export done");
 
                         }
 
@@ -277,7 +235,6 @@ public class Exporter {
         // finalization activities
         deployment
                 .getFinalizationActivities()
-                .stream()
                 .forEach(activity -> activity.getActivityHandler().execute(jdbcTemplate, activity));
 
         return jsonObjectArray;

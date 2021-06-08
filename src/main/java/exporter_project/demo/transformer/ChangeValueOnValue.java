@@ -12,17 +12,10 @@ public class ChangeValueOnValue implements ITransformer {
     @Override
     public Object transform(Transformation transformation, Object input, List<KeyValue> parameters, Row row) {
 
-        for (int i = 0; i < parameters.size(); i++) {
-            System.out.println("parameter key is " + parameters.get(0).getKey().toString());
-            System.out.println("parameter value is " + parameters.get(0).getValue().toString());
-        }
         List<String> rowKey  = new ArrayList<String>(row.getFieldValueMap().keySet() );
         List<Object> rowValue  = new ArrayList<Object>( row.getFieldValueMap().values() );
 
         Object _input = input;
-
-        System.out.println("row key is " + rowKey);
-        System.out.println("row value is " + rowValue);
 
         for (int i = 0; i < parameters.size(); i++) {
             List<String> parameterValue = (List<String>) parameters.get(i).getValue();

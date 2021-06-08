@@ -1,14 +1,15 @@
 package exporter_project.demo.activity;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+
 import exporter_project.demo.IActivityHandler;
 import exporter_project.demo.deployment.Activity;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 public class InitiateDeltaExtract implements IActivityHandler {
 
-    private static final Logger log = LogManager.getLogger(InitiateDeltaExtract.class);
+    private static final Logger log = LoggerFactory.getLogger(InitiateDeltaExtract.class);
 
     public static final String NO_LAST_EXTRACT_DATE = "noLastExtractDate";
     public static final String LAST_EXTRACT_DATE = "lastExtractDate";

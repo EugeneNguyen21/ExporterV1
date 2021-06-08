@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import exporter_project.demo.extractor.Row;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.simple.JSONObject;
@@ -11,6 +12,7 @@ import exporter_project.demo.extractor.ResultSetObject;
 import exporter_project.demo.IFormatter;
 import exporter_project.demo.KeyValue;
 import exporter_project.demo.configuration.OutputFile;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Service;
 
@@ -24,7 +26,7 @@ import java.util.stream.Collectors;
 @Configuration
 public class JsonFormatter implements IFormatter {
 
-    private static final Logger log = LogManager.getLogger(CsvFormatter.class);
+    static final Logger log = LogManager.getLogger("MyFile");
 
 
     public void addValueToJson(OutputFile file,
@@ -170,10 +172,9 @@ public class JsonFormatter implements IFormatter {
     }
 
     @Override
-    public void close() {
+    public void close(ResultSetObject resultSetObject) {
 
     }
-
 
 
 }

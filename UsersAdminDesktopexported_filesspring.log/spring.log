@@ -1,0 +1,70 @@
+2021-05-28 14:49:25 INFO  [EXPORTER] - Starting DemoApplication using Java 16.0.1 on Admin with PID 50928 (C:\Users\Admin\Desktop\Ennov\ExporterV1\target\classes started by Admin in C:\Users\Admin\Desktop\Ennov\ExporterV1)
+2021-05-28 14:49:25 INFO  [EXPORTER] - No active profile set, falling back to default profiles: default
+2021-05-28 14:49:26 INFO  [EXPORTER] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-28 14:49:26 INFO  [EXPORTER] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-28 14:49:27 INFO  [EXPORTER] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2021-05-28 14:49:27 INFO  [EXPORTER] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2021-05-28 14:49:27 INFO  [EXPORTER] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-28 14:49:28 INFO  [EXPORTER] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-28 14:49:28 INFO  [EXPORTER] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-28 14:49:28 INFO  [EXPORTER] - Tomcat initialized with port(s): 8080 (http)
+2021-05-28 14:49:28 INFO  [EXPORTER] - Starting service [Tomcat]
+2021-05-28 14:49:28 INFO  [EXPORTER] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-28 14:49:29 INFO  [EXPORTER] - Initializing Spring embedded WebApplicationContext
+2021-05-28 14:49:29 INFO  [EXPORTER] - Root WebApplicationContext: initialization completed in 3332 ms
+2021-05-28 14:49:29 INFO  [EXPORTER] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-28 14:49:30 WARN  [EXPORTER] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-05-28 14:49:30 INFO  [EXPORTER] - Initializing ExecutorService 'taskScheduler'
+2021-05-28 14:49:30 INFO  [EXPORTER] - LiveReload server is running on port 35729
+2021-05-28 14:49:30 INFO  [EXPORTER] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-05-28 14:49:30 INFO  [EXPORTER] - Channel 'application.errorChannel' has 1 subscriber(s).
+2021-05-28 14:49:30 INFO  [EXPORTER] - started bean '_org.springframework.integration.errorLogger'
+2021-05-28 14:49:31 INFO  [EXPORTER] - Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-28 14:49:31 INFO  [EXPORTER] - Started DemoApplication in 6.461 seconds (JVM running for 8.619)
+2021-05-28 14:49:43 INFO  [EXPORTER] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-28 14:49:43 INFO  [EXPORTER] - Initializing Servlet 'dispatcherServlet'
+2021-05-28 14:49:43 INFO  [EXPORTER] - Completed initialization in 1 ms
+2021-05-28 14:49:43 INFO  [EXPORTER] - start extract data from Datamart
+2021-05-28 14:49:43 INFO  [EXPORTER] - HikariPool-1 - Starting...
+2021-05-28 14:49:43 INFO  [EXPORTER] - HikariPool-1 - Start completed.
+2021-05-28 14:49:43 INFO  [EXPORTER] - Create empty CSV file [EVENT_V3_CONTACTS_FR_20210528 02_49_43.csv]
+2021-05-28 14:49:43 INFO  [EXPORTER] - Start import data to empty csv file
+2021-05-28 14:49:43 INFO  [EXPORTER] - Import to csv done -  4 rows imported to csv file
+2021-05-28 14:49:44 INFO  [EXPORTER] - EVENT_V3_CONTACTS_FR_20210528 02_49_43.csv MD5 checksum: a3507d1f09d64d7600bdaae74aa11a31
+2021-05-28 14:49:44 INFO  [EXPORTER] - start export csv file to ftp server
+2021-05-28 14:49:44 INFO  [EXPORTER] - Export done
+2021-05-28 14:50:06 INFO  [EXPORTER] - Starting DemoApplication using Java 16.0.1 on Admin with PID 16668 (C:\Users\Admin\Desktop\Ennov\ExporterV1\target\classes started by Admin in C:\Users\Admin\Desktop\Ennov\ExporterV1)
+2021-05-28 14:50:06 INFO  [EXPORTER] - No active profile set, falling back to default profiles: default
+2021-05-28 14:50:06 INFO  [EXPORTER] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-28 14:50:06 INFO  [EXPORTER] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-28 14:50:08 INFO  [EXPORTER] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2021-05-28 14:50:08 INFO  [EXPORTER] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2021-05-28 14:50:08 INFO  [EXPORTER] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-28 14:50:08 INFO  [EXPORTER] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-28 14:50:08 INFO  [EXPORTER] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-28 14:50:09 INFO  [EXPORTER] - Tomcat initialized with port(s): 8080 (http)
+2021-05-28 14:50:09 INFO  [EXPORTER] - Starting service [Tomcat]
+2021-05-28 14:50:09 INFO  [EXPORTER] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-28 14:50:09 INFO  [EXPORTER] - Initializing Spring embedded WebApplicationContext
+2021-05-28 14:50:09 INFO  [EXPORTER] - Root WebApplicationContext: initialization completed in 2421 ms
+2021-05-28 14:50:10 INFO  [EXPORTER] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-28 14:50:10 WARN  [EXPORTER] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-05-28 14:50:10 INFO  [EXPORTER] - Initializing ExecutorService 'taskScheduler'
+2021-05-28 14:50:10 INFO  [EXPORTER] - LiveReload server is running on port 35729
+2021-05-28 14:50:10 INFO  [EXPORTER] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-05-28 14:50:10 INFO  [EXPORTER] - Channel 'application.errorChannel' has 1 subscriber(s).
+2021-05-28 14:50:10 INFO  [EXPORTER] - started bean '_org.springframework.integration.errorLogger'
+2021-05-28 14:50:10 INFO  [EXPORTER] - Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-28 14:50:10 INFO  [EXPORTER] - Started DemoApplication in 4.801 seconds (JVM running for 7.501)
+2021-05-28 14:50:16 INFO  [EXPORTER] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-28 14:50:16 INFO  [EXPORTER] - Initializing Servlet 'dispatcherServlet'
+2021-05-28 14:50:16 INFO  [EXPORTER] - Completed initialization in 2 ms
+2021-05-28 14:50:16 INFO  [EXPORTER] - start extract data from Datamart
+2021-05-28 14:50:16 INFO  [EXPORTER] - HikariPool-1 - Starting...
+2021-05-28 14:50:17 INFO  [EXPORTER] - HikariPool-1 - Start completed.
+2021-05-28 14:50:17 INFO  [EXPORTER] - Create empty CSV file [EVENT_V3_CONTACTS_FR_20210528 02_50_16.csv]
+2021-05-28 14:50:17 INFO  [EXPORTER] - Start import data to empty csv file
+2021-05-28 14:50:17 INFO  [EXPORTER] - Import to csv done -  4 rows imported to csv file
+2021-05-28 14:50:17 INFO  [EXPORTER] - EVENT_V3_CONTACTS_FR_20210528 02_50_16.csv MD5 checksum: a3507d1f09d64d7600bdaae74aa11a31
+2021-05-28 14:50:17 INFO  [EXPORTER] - start export csv file to ftp server
+2021-05-28 14:50:17 INFO  [EXPORTER] - Export done
