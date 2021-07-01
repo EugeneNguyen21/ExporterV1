@@ -54,7 +54,6 @@ public class JsonFormatter implements IFormatter {
                                 String inputColName = inputColumns.get(outputColumns.indexOf(outputColName));
                                     if(rowValueKey.containsKey(inputColName)){
                                         value = rowValueKey.get(inputColName);
-                                        System.out.println("value is bbbbbbbbb" + value);
                                     } else {
                                         value = "";
                                     }

@@ -50,7 +50,8 @@ public class Exporter {
     private String deploymentFileName;
 
 
-
+    @Autowired
+    ShellCaller shellCaller;
 
     @Autowired
     DatasourceConnection datasourceConnection;
@@ -227,6 +228,14 @@ public class Exporter {
                             }
 
                             ftp.transport(filePath, deployment.getTransport());
+                            try {
+                                batchCreation.createBat(deployment.getFormatter().getOutputFolder());
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+
+
+
                             log.info("Export done");
 
                         }

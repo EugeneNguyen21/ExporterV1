@@ -1,5 +1,6 @@
 package exporter_project.demo.transporter;
 
+import com.jcraft.jsch.*;
 import exporter_project.demo.ITransporter;
 import exporter_project.demo.deployment.Transport;
 import org.apache.commons.net.ftp.*;
@@ -51,55 +52,49 @@ public class Ftp implements ITransporter {
 
     @Override
     public void transport(String filePath, Transport transport) {
-        log.info("start export csv file to ftp server");
-        this.server = transport.getServer();
-        this.port = transport.getPort();
-        this.user = transport.getUser();
-        this.password = transport.getPassword();
-        System.out.println("file path is  " + filePath);
-        System.out.println("server is " + this.server);
-        System.out.println("user is " + this.user);
-        System.out.println("password is " + this.password);
-
-        FTPClient client = new FTPClient();
-        FileInputStream fis = null;
-
+        JSch jsch = new JSch();
+        Session session = null;
         try {
-            client.connect(getServer());
-            boolean success = client.login(getUser(), getPassword());
-            if(success)
-                System.out.println("connection successful");
-            else
-                System.out.println("connection failed");
+            session = jsch.getSession("sftpuser", "149.202.140.150");
+            session.setConfig("StrictHostKeyChecking", "no");
+            session.setPassword("DA#2Lqx825#PGJ1oH");
+            session.connect(30000);
 
-            File file = new File(filePath);
-            String fileName = StringUtils.cleanPath(file.getName());
+            Channel channel = session.openChannel("sftp");
+            channel.connect();
+            ChannelSftp sftpChannel = (ChannelSftp) channel;
 
-            client.setFileType(FTP.BINARY_FILE_TYPE);
-            client.enterLocalPassiveMode();
-
-            InputStream inputStream = new FileInputStream(file);
-            System.out.println("Start uploading file");
-
-            boolean done = client.storeFile(fileName, inputStream);
-
-            if (done) {
-                System.out.println("The file is uploaded successfully.");
-            }
-            inputStream.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
+            InputStream stream = sftpChannel.get("/FROM_ATRIUM/filename.csv");
             try {
-                if (fis != null) {
-                    fis.close();
+                BufferedReader br = new BufferedReader(new InputStreamReader(stream));
+                String line;
+                while ((line = br.readLine()) != null) {
+                    System.out.println(line);
+                    break;
                 }
-                client.disconnect();
-            } catch (IOException e) {
-                e.printStackTrace();
+
+            } catch (IOException io) {
+                System.out.println("Exception occurred during reading file from SFTP server due to " + io.getMessage());
+                io.getMessage();
+
+            } catch (Exception e) {
+                System.out.println("Exception occurred during reading file from SFTP server due to " + e.getMessage());
+                e.getMessage();
+
             }
+
+            sftpChannel.exit();
+            session.disconnect();
+        } catch (JSchException e) {
+            e.printStackTrace();
+        } catch (SftpException e) {
+            e.printStackTrace();
         }
     }
+
+
+
+
 
 //        try {
 //            FtpClientIntegrationTest ftpServer = null;
@@ -173,37 +168,37 @@ public class Ftp implements ITransporter {
 //        ftpClient.disconnect();
 //    }
 
-    public static class FtpClientIntegrationTest {
-
-        private FakeFtpServer fakeFtpServer;
-
-        private int port = 21;
-        private String user = "FTP-User";
-        private String password = "123456";
-
-        public FtpClientIntegrationTest(int port, String user, String password) {
-            this.port = port;
-            this.user = user;
-            this.password = password;
-        }
-
-        public int start() throws IOException {
-            fakeFtpServer = new FakeFtpServer();
-            fakeFtpServer.addUserAccount(new UserAccount(user, password, "/data"));
-
-            FileSystem fileSystem = new UnixFakeFileSystem();
-            fileSystem.add(new DirectoryEntry("/data"));
-            fileSystem.add(new FileEntry("/data/foobar.txt", "abcdef 1234567890"));
-            fakeFtpServer.setFileSystem(fileSystem);
-            fakeFtpServer.setServerControlPort(port);
-
-            fakeFtpServer.start();
-
-            return fakeFtpServer.getServerControlPort();
-        }
-
-        public void teardown() throws IOException {
-            fakeFtpServer.stop();
-        }
-    }
+//    public static class FtpClientIntegrationTest {
+//
+//        private FakeFtpServer fakeFtpServer;
+//
+//        private int port = 21;
+//        private String user = "FTP-User";
+//        private String password = "123456";
+//
+//        public FtpClientIntegrationTest(int port, String user, String password) {
+//            this.port = port;
+//            this.user = user;
+//            this.password = password;
+//        }
+//
+//        public int start() throws IOException {
+//            fakeFtpServer = new FakeFtpServer();
+//            fakeFtpServer.addUserAccount(new UserAccount(user, password, "/data"));
+//
+//            FileSystem fileSystem = new UnixFakeFileSystem();
+//            fileSystem.add(new DirectoryEntry("/data"));
+//            fileSystem.add(new FileEntry("/data/foobar.txt", "abcdef 1234567890"));
+//            fakeFtpServer.setFileSystem(fileSystem);
+//            fakeFtpServer.setServerControlPort(port);
+//
+//            fakeFtpServer.start();
+//
+//            return fakeFtpServer.getServerControlPort();
+//        }
+//
+//        public void teardown() throws IOException {
+//            fakeFtpServer.stop();
+//        }
+//    }
 }
